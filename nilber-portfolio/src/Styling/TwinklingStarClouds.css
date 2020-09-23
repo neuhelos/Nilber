@@ -45,7 +45,7 @@
 
 .stars {
   background:#000 url('./Images/StarMap.png') repeat top center;
-  z-index:0;
+  z-index: -1;
 }
 
 .twinkling{
@@ -56,6 +56,7 @@
   -o-animation:move-twink-back 200s linear infinite;
   -webkit-animation:move-twink-back 200s linear infinite;
   animation:move-twink-back 200s linear infinite;
+  z-index: -1;
 }
 
 .clouds{
@@ -68,4 +69,5 @@
   -o-animation:move-clouds-back 200s linear infinite;
   -webkit-animation:move-clouds-back 200s linear infinite;
   animation:move-clouds-back 200s linear infinite;
+  z-index: -1;
 }

@@ -6,7 +6,10 @@ const BioGrid = () => {
 
     
     return (
-            <div>HI</div>
+            <div>
+            
+            
+            </div>
 
             
 

@@ -1,10 +1,15 @@
 import React from 'react'
 
+
 const BioGrid = () => {
+
+
+    
     return (
-        <div>
+            <div>HI</div>
+
             
-        </div>
+
     )
 }
 

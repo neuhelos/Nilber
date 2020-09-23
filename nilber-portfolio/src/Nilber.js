@@ -4,6 +4,8 @@ import { ThemeProvider } from "@material-ui/core/styles";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import { theme } from "./Styling/ThemeProvider.js";
 
+import BioGrid from './Components/BioGrid'
+
 import './Styling/TwinklingStarClouds.css'
 
 const Nilber = () => {
@@ -16,7 +18,8 @@ const Nilber = () => {
       <div class="twinkling"></div>
       <div class="clouds"></div>  
       <div className="App">
-      NILBER
+        <BioGrid />
+
       </div>
     </ThemeProvider>
 

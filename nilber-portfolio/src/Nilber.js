@@ -11,6 +11,8 @@ import './Styling/TwinklingStarClouds.css'
 import BioGrid from './Components/BioGrid'
 import Footer from './Components/Footer'
 
+import RedWhiteStar from './Styling/Images/RedWhiteStar.png'
+
 const useStyles = makeStyles( (theme) => ({
     root: {
       '& *': {
@@ -18,7 +20,8 @@ const useStyles = makeStyles( (theme) => ({
       },
       height: '100%',
       display: 'flex',
-      flexDirection: 'column'
+      flexDirection: 'column',
+      alignItems: 'center',
     },
     text: {
       fontFamily: 'jost',
@@ -41,7 +44,7 @@ const Nilber = () => {
         <div className="twinkling"></div>
         <div className="clouds"></div>  
         <Typography className={classes.text} align='center' variant="h1">Nílber Remón</Typography>
-        <Typography className={classes.text} align='center' variant="h4" style={{fontFamily: 'abel'}}>FULL STACK WEB DEVELOPER</Typography>
+        <Typography align='center' variant="h4" style={{fontFamily: 'abel'}}>FULL STACK WEB DEVELOPER</Typography>
         <BioGrid />
         <Footer />
       </div>

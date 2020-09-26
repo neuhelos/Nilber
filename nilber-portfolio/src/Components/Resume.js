@@ -19,13 +19,19 @@ const useStyles = makeStyles((theme) => ({
         width: '100%',
         position: 'relative',
         height: '100%',
+        '& *': {
+            fontFamily: 'abel'
+        }
     },
     timeline: {
         width: '100%',
         minHeight: '100%',
         position: 'absolute',
         overflow: 'auto',
-        margin: 0
+        margin: 0,
+        '& *': {
+            fontFamily: 'abel'
+        }
     },
     timelineDot: {
         backgroundColor: '#000000',
@@ -40,6 +46,10 @@ const useStyles = makeStyles((theme) => ({
     secondaryTail: {
         backgroundColor: theme.palette.secondary.main,
     },
+    dateText: {
+        fontWeight: 800,
+        fontFamily: 'abel'
+    }
 }));
 
 export default function CustomizedTimeline() {
@@ -49,6 +59,11 @@ export default function CustomizedTimeline() {
         <div className={classes.root}>
             <Timeline className={classes.timeline} align="alternate">
                 <TimelineItem>
+                    <TimelineOppositeContent>
+                        <Typography variant="subtitle1" className={classes.dateText}>
+                            JAN 2020 - Present
+                        </Typography>
+                    </TimelineOppositeContent>
                     <TimelineSeparator>
                         <TimelineDot className={classes.timelineDot}>
                             <StarIcon className={classes.icon} />
@@ -56,12 +71,15 @@ export default function CustomizedTimeline() {
                         <TimelineConnector />
                     </TimelineSeparator>
                     <TimelineContent>
-                    <Paper elevation={3} className={classes.paper}>
-                        <Typography variant="h6" component="h1">
-                        Eat
-                        </Typography>
-                        <Typography>Because you need strength</Typography>
-                    </Paper>
+                        <Paper elevation={3} className={classes.paper}>
+                            <Typography variant="h6" component="h1">
+                                PURSUIT
+                            </Typography>
+                            <Typography variant='subtitle1'>Front-End Web Development Study Lead</Typography>
+                            <Typography variant='body2'>
+                                Lead bi-weekly in-depth study conversations with 5-6 fellows on front-end, UI/UX design and styling
+                            </Typography>
+                        </Paper>
                     </TimelineContent>
                 </TimelineItem>
                 <TimelineItem>

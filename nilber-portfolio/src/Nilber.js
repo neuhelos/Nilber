@@ -14,9 +14,6 @@ import Footer from './Components/Footer'
 
 const useStyles = makeStyles( (theme) => ({
     root: {
-      '& *': {
-        fontFamily: 'jost'
-      },
       height: '100%',
       display: 'flex',
       flexDirection: 'column',

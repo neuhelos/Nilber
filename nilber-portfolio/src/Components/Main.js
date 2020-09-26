@@ -13,9 +13,6 @@ import ProjectSkills from './ProjectSkills'
 
 const useStyles = makeStyles( (theme) => ({
     root: {
-        '& *': {
-            fontFamily: 'jost'
-        },
         width: '100%',
         margin: theme.spacing(2),
         flex: 1
@@ -23,7 +20,8 @@ const useStyles = makeStyles( (theme) => ({
     tabBar: {
         width: '100%',
         '& *': {
-            fontSize: '1rem'
+            fontSize: '1rem',
+            fontFamily: 'jost'
         }
     },
     tabPanelContainer: {

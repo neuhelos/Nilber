@@ -24,13 +24,16 @@ const useStyles = makeStyles( (theme) => ({
         width: '25%',
         margin: theme.spacing(2),
         float: 'left',
-        display: 'table'
+        display: 'table',
+        shapeOutside: 'circle()',
+        '& -webkit-shape-outside' : 'circle()',
+        borderRadius: '50%'
     },
     image: {
         width: '100%',
         padding: theme.spacing(1),
         border: '10px solid #F5F5F5',
-        borderRadius: '500px'
+        borderRadius: '50%'
     },
     text : {
         fontFamily: 'abel',

@@ -268,7 +268,6 @@ export default function CustomizedTimeline() {
                         <TimelineDot className={classes.timelineDot}>
                             <StarIcon className={classes.icon} />
                         </TimelineDot>
-                        <TimelineConnector />
                     </TimelineSeparator>
                     <TimelineContent>
                         <Paper elevation={3} className={classes.paper}>

@@ -8,20 +8,19 @@ import TimelineContent from '@material-ui/lab/TimelineContent';
 import TimelineOppositeContent from '@material-ui/lab/TimelineOppositeContent';
 import TimelineDot from '@material-ui/lab/TimelineDot';
 import StarIcon from '@material-ui/icons/Star';
-import LaptopMacIcon from '@material-ui/icons/LaptopMac';
-import HotelIcon from '@material-ui/icons/Hotel';
-import RepeatIcon from '@material-ui/icons/Repeat';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
+import List from '@material-ui/core/List';
+import ListItem from '@material-ui/core/ListItem';
+import ListItemText from '@material-ui/core/ListItemText';
+import ListItemAvatar from '@material-ui/core/ListItemAvatar';
+import Avatar from '@material-ui/core/Avatar'
 
 const useStyles = makeStyles((theme) => ({
     root: {
         width: '100%',
         position: 'relative',
         height: '100%',
-        '& *': {
-            fontFamily: 'abel'
-        }
     },
     timeline: {
         width: '100%',
@@ -43,12 +42,9 @@ const useStyles = makeStyles((theme) => ({
     paper: {
         padding: '6px 16px',
     },
-    secondaryTail: {
-        backgroundColor: theme.palette.secondary.main,
-    },
     dateText: {
         fontWeight: 800,
-        fontFamily: 'abel'
+        fontFamily: 'jost'
     }
 }));
 
@@ -72,12 +68,21 @@ export default function CustomizedTimeline() {
                     </TimelineSeparator>
                     <TimelineContent>
                         <Paper elevation={3} className={classes.paper}>
-                            <Typography variant="h6" component="h1">
+                            <Typography variant="h6" component="h1" style={{fontWeight: 800}}>
                                 PURSUIT
                             </Typography>
                             <Typography variant='subtitle1'>Front-End Web Development Study Lead</Typography>
                             <Typography variant='body2'>
-                                Lead bi-weekly in-depth study conversations with 5-6 fellows on front-end, UI/UX design and styling
+                                <ListItem>
+                                    <ListItemAvatar>
+                                        <Avatar>
+                                        <StarIcon />
+                                        </Avatar>
+                                    </ListItemAvatar>
+                                    <ListItemText
+                                    primary='Lead bi-weekly in-depth study conversations with 5-6 fellows on front-end, UI/UX design and styling'
+                                    />
+                                </ListItem>
                             </Typography>
                         </Paper>
                     </TimelineContent>
@@ -91,10 +96,63 @@ export default function CustomizedTimeline() {
                     </TimelineSeparator>
                     <TimelineContent>
                     <Paper elevation={3} className={classes.paper}>
-                        <Typography variant="h6" component="h1">
-                        Code
+                        <Typography variant="h6" component="h1" style={{fontWeight: 800}}>
+                            ZONE 126 - FUND FOR THE CITY OF NY
                         </Typography>
-                        <Typography>Because it&apos;s awesome!
+                        <Typography variant='subtitle1'>Data Manager</Typography>
+                        <Typography variant='body2'>
+                            <List dense={'dense'}>
+                                <ListItem>
+                                    <ListItemAvatar>
+                                        <Avatar>
+                                        <StarIcon />
+                                        </Avatar>
+                                    </ListItemAvatar>
+                                    <ListItemText
+                                    primary='Coordinate data analytics and data collection logistics across sites, programs and organizational partners.'
+                                    />
+                                </ListItem>
+                                <ListItem>
+                                    <ListItemAvatar>
+                                        <Avatar>
+                                        <StarIcon />
+                                        </Avatar>
+                                    </ListItemAvatar>
+                                    <ListItemText
+                                    primary='Provide data quality assurance management and perform and design quality controls'
+                                    />
+                                </ListItem>
+                                <ListItem>
+                                    <ListItemAvatar>
+                                        <Avatar>
+                                        <StarIcon />
+                                        </Avatar>
+                                    </ListItemAvatar>
+                                    <ListItemText
+                                    primary='Propose recommendations and implement protocols to streamline data processes, including establishing standard operating procedures (SOP)  and data management policies.'
+                                    />
+                                </ListItem>
+                                <ListItem>
+                                    <ListItemAvatar>
+                                        <Avatar>
+                                        <StarIcon />
+                                        </Avatar>
+                                    </ListItemAvatar>
+                                    <ListItemText
+                                    primary='Manage data entry staff and provide ongoing oversight of their performance. '
+                                    />
+                                </ListItem>
+                                <ListItem>
+                                    <ListItemAvatar>
+                                        <Avatar>
+                                            <StarIcon/>
+                                        </Avatar>
+                                    </ListItemAvatar>
+                                    <ListItemText
+                                    primary='Oversee organizational database management and assist in analyzing and reporting data.'
+                                    />
+                                </ListItem>
+                            </List>
                         </Typography>
                     </Paper>
                     </TimelineContent>

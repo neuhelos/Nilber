@@ -18,7 +18,10 @@ export const theme = createMuiTheme({
                     lineHeight: '1.5rem',
                     backgroundColor: '#121212',
                     color: '#FFFFFF'
-                }
+                },
+                '*::-webkit-scrollbar': {
+                    width: 0
+                },
             },
         },
     },

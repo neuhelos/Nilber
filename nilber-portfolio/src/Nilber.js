@@ -8,10 +8,9 @@ import { theme } from './Styling/ThemeProvider.js';
 import Typography from "@material-ui/core/Typography"
 import './Styling/TwinklingStarClouds.css'
 
-import BioGrid from './Components/BioGrid'
+import Main from './Components/Main'
 import Footer from './Components/Footer'
 
-import RedWhiteStar from './Styling/Images/RedWhiteStar.png'
 
 const useStyles = makeStyles( (theme) => ({
     root: {
@@ -43,9 +42,9 @@ const Nilber = () => {
         <div className="stars"></div>
         <div className="twinkling"></div>
         <div className="clouds"></div>  
-        <Typography className={classes.text} align='center' variant="h1">Nílber Remón</Typography>
+        <Typography className={classes.text} align='center' variant="h2">Nílber Remón</Typography>
         <Typography align='center' variant="h4" style={{fontFamily: 'abel'}}>FULL STACK WEB DEVELOPER</Typography>
-        <BioGrid />
+        <Main />
         <Footer />
       </div>
     </ThemeProvider>

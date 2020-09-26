@@ -13,7 +13,6 @@ const useStyles = makeStyles((theme) => ({
     root: {
         width: '100%',
         padding: theme.spacing(1),
-        marginTop: 'auto',
         backgroundColor: '#F5F5F5',
         display: 'flex',
         justifyContent: 'space-around',
@@ -26,7 +25,8 @@ const useStyles = makeStyles((theme) => ({
         color: '#000000',
         '&:hover': {
             color: '#A92521'
-        }
+        },
+        //marginRight: theme.spacing(3)
     },
     copyright: {
         '&:hover': {
@@ -55,7 +55,7 @@ const Footer = () => {
             <Typography>Twitter</Typography>
         </Link>
         <Typography className={classes.copyright} variant="body2" color="textSecondary" align='center'>
-            {'Copyright © Nílber Helos '}{new Date().getFullYear()}
+            {'Copyright © '}{new Date().getFullYear()}
         </Typography>
     </footer>
     );

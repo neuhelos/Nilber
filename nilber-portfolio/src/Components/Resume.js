@@ -15,12 +15,19 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 import Avatar from '@material-ui/core/Avatar'
+import Button from '@material-ui/core/Button'
+
+import TileGrid from '../Styling/Images/HeaderDiamondGrid.svg'
+import Resume from '../Assets/Nilber Remon - Resume.pdf'
 
 const useStyles = makeStyles((theme) => ({
     root: {
         width: '100%',
         position: 'relative',
         height: '100%',
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center'
     },
     timeline: {
         width: '100%',
@@ -50,14 +57,33 @@ const useStyles = makeStyles((theme) => ({
     dateText: {
         fontWeight: 800,
         fontFamily: 'jost'
+    },
+    button: {
+        fontFamily: 'jost',
+        border: '4px solid #FFFFFF',
+        borderRadius: '4px',
+        color: '#FFFFFF',
+        width: '50%',
+        margin: theme.spacing(1),
+        background: 'transparent',
+        backgroundImage: `url(${TileGrid})`,
+        backgroundSize: '50%',
+        fontSize: '1.5rem',
+        fontWeight: 800,
+        textAlign: 'center'
     }
 }));
 
-export default function CustomizedTimeline() {
-  const classes = useStyles();
+const ResumeTimeline = () => {
+    
+    const classes = useStyles();
 
     return (
         <div className={classes.root}>
+            <Button className={classes.button} href={Resume} target="_blank" rel="noopener noreferrer" size='large'>
+                Download Resume
+            </Button>
+            <div className={classes.root}>
             <Timeline className={classes.timeline} align="alternate">
                 <TimelineItem>
                     <TimelineOppositeContent>
@@ -331,6 +357,9 @@ export default function CustomizedTimeline() {
                     </TimelineContent>
                 </TimelineItem>
             </Timeline>
+            </div>
         </div>
     );
 }
+
+export default ResumeTimeline

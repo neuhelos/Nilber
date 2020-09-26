@@ -17,6 +17,9 @@ const useStyles = makeStyles((theme) => ({
         display: 'flex',
         justifyContent: 'space-around',
         alignItems: 'center',
+        '& *' : {
+            fontFamily: 'jost'
+        }
     },
     link: {
         display: 'flex',

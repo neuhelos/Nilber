@@ -43,15 +43,15 @@ const ProjectSkills = () => {
     const classes = useStyles();
     
     return (
-        <>
         <Grid container className={classes.root} direction="column" justify="center" alignItems="center">
-            <Typography className={classes.text} variant='h4' align='center' gutterBottom={true}>SKILLS</Typography>
-            <Skills />
+            <Grid container className={classes.container} direction="column" justify="center" alignItems="center">
+                <Typography className={classes.text} variant='h4' align='center' gutterBottom={true}>SKILLS</Typography>
+                <Skills />
+            </Grid>
+            <Grid container className={classes.container} direction="column" justify="flex-start" alignItems="center">
+                <Typography className={classes.text} variant='h4' align='center' gutterBottom={true}>PROJECTS</Typography> 
+            </Grid>
         </Grid>
-        <Grid container className={classes.root} direction="column" justify="flex-start" alignItems="center">
-            <Typography className={classes.text} variant='h4' align='center' gutterBottom={true}>PROJECTS</Typography> 
-        </Grid>
-        </>
     )
 }
 

@@ -33,11 +33,10 @@ const ProjectSkills = () => {
     return (
         <div className={classes.root}>
             <Grid container className={classes.container} direction="column" justify="center" alignItems="center">
-                <Typography className={classes.text} variant='h4' align='center' gutterBottom={true}>SKILLS</Typography>
                 <Skills />
             </Grid>
             <Grid container className={classes.container} direction="column" justify="center" alignItems="center">
-                <Typography className={classes.text} variant='h4' align='center' gutterBottom={true}>PROJECTS</Typography>
+                <Typography className={classes.text} variant='h3' align='center' gutterBottom={true}>PROJECTS</Typography>
                 <Projects />
             </Grid>
         </div>

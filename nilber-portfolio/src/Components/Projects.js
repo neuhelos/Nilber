@@ -15,14 +15,56 @@ const useStyles = makeStyles( (theme) => ({
         }
     },
     container: {
-        margin: theme.spacing(1)
+        margin: theme.spacing(1),
+        width: '75%',
+        position: 'relative',
+        overflow: 'hidden',
+        '&:hover' : {
+            '& $overlay' : {
+                opacity: 1
+            },
+            '& $overlayDetails': {
+                top: '50%',
+                left: '50%',
+                opacity: 1,
+            }
+        }
+    },
+    overlay: {
+        background: 'rgba(0,0,0,0.7)',
+        position: 'absolute',
+        padding: theme.spacing(1),
+        height: '100%',
+        width: '100%',
+        left: 0,
+        top: 0,
+        bottom: 0,
+        right: 0,
+        opacity: 0,
+        '& -webkit-transition': 'all 0.4s ease-in-out 0s',
+        '& -moz-transition': 'all 0.4s ease-in-out 0s',
+        transition: 'all 0.4s ease-in-out 0s',
+    },
+    overlayDetails: {
+        color: '#FFFFFF',
+        position: 'absolute',
+        width: '100%',
+        top: '50%',
+        left: '50%',
+        opacity: '0',
+        top: '80%',
+        '& -webkit-transform': 'translate(-50%, -50%)',
+        '& -moz-transform': 'translate(-50%, -50%)',
+        transform: 'translate(-50%, -50%)',
+        '& -webkit-transition': 'all 0.3s ease-in-out 0s',
+        '& -moz-transition': 'all 0.3s ease-in-out 0s',
+        transition: 'all 0.3s ease-in-out 0s',
     },
     image: {
-        width: '75%',
-        padding: theme.spacing(1),
+        width: '100%',
     },
     text : {
-        fontFamily: 'jost',
+        fontFamily: 'abel',
     }
 }))
 
@@ -33,18 +75,16 @@ const Projects = () => {
 
     let projects = projectPosts.map( projects => {
         return (
-            <a href={projects.projectURL} target='_blank' rel='noopener noreferrer'>
-                <Grid container className={classes.container} direction="column" justify="center" alignItems="center">
-                    <div>
-                        <div class="content-overlay"></div>
-                        <img className={classes.image} src={projects.image} alt={projects.projectName} />
-                        <div class="content-details fadeIn-bottom">
-                            <Typography variant="h4" align='center' gutterBottom={true}>{projects.projectName}</Typography>
-                            <Typography variant="h6" align='center' class="content-title">{projects.techStack}</Typography>
-                        </div>
+            <Grid container className={classes.container} direction="column" justify="center" alignItems="center">
+                <a href={projects.projectURL} target='_blank' rel='noopener noreferrer'>
+                    <div className={classes.overlay}></div>
+                    <img className={classes.image} src={projects.image} alt={projects.projectName} />
+                    <div className={classes.overlayDetails}>
+                        <Typography variant="h3" align='center' gutterBottom={true}>{projects.projectName}</Typography>
+                        <Typography className={classes.text} variant="h5" align='center'>{projects.techStack}</Typography>
                     </div>
-                </Grid>
-            </a>
+                </a>
+            </Grid>
         
         )
     })

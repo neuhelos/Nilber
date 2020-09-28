@@ -19,7 +19,6 @@ const useStyles = makeStyles( (theme) => ({
     container: {
         width: '100%',
         padding: theme.spacing(2),
-        
     },
     text : {
         fontFamily: 'jost',

@@ -15,6 +15,10 @@ const useStyles = makeStyles( (theme) => ({
         }
     },
     container: {
+        display: 'flex',
+        justifyContent: 'center',
+    },
+    overlayContainer: {
         margin: theme.spacing(1),
         width: '75%',
         position: 'relative',
@@ -33,7 +37,6 @@ const useStyles = makeStyles( (theme) => ({
     overlay: {
         background: 'rgba(0,0,0,0.7)',
         position: 'absolute',
-        padding: theme.spacing(1),
         height: '100%',
         width: '100%',
         left: 0,
@@ -49,7 +52,6 @@ const useStyles = makeStyles( (theme) => ({
         color: '#FFFFFF',
         position: 'absolute',
         width: '100%',
-        top: '50%',
         left: '50%',
         opacity: '0',
         top: '80%',
@@ -62,6 +64,7 @@ const useStyles = makeStyles( (theme) => ({
     },
     image: {
         width: '100%',
+        height: '100%',
     },
     text : {
         fontFamily: 'abel',
@@ -75,16 +78,16 @@ const Projects = () => {
 
     let projects = projectPosts.map( projects => {
         return (
-            <Grid container className={classes.container} direction="column" justify="center" alignItems="center">
-                <a href={projects.projectURL} target='_blank' rel='noopener noreferrer'>
+            <a className={classes.container} href={projects.projectURL} target='_blank' rel='noopener noreferrer'>
+                <Grid container className={classes.overlayContainer} direction="column" justify="center" alignItems="center">
                     <div className={classes.overlay}></div>
                     <img className={classes.image} src={projects.image} alt={projects.projectName} />
                     <div className={classes.overlayDetails}>
                         <Typography variant="h3" align='center' gutterBottom={true}>{projects.projectName}</Typography>
                         <Typography className={classes.text} variant="h5" align='center'>{projects.techStack}</Typography>
                     </div>
-                </a>
-            </Grid>
+                </Grid>
+            </a>
         
         )
     })

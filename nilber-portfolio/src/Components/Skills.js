@@ -18,13 +18,6 @@ const useStyles = makeStyles( (theme) => ({
     container: {
         width: '10%'
     },
-    imageContainer: {
-        width: '25%',
-        margin: theme.spacing(2),
-        float: 'left',
-
-        borderRadius: '50%'
-    },
     image: {
         width: '100%',
         padding: theme.spacing(1),

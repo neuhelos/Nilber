@@ -46,7 +46,7 @@ const About = () => {
     const classes = useStyles();
     
     return (
-        <Box container className={classes.root}>
+        <Box className={classes.root}>
             <div className={classes.imageContainer}>
                 <img className={classes.image} src={Nilber} alt="Nílber Remón" />
             </div>

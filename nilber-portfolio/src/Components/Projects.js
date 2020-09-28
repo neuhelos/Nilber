@@ -17,6 +17,7 @@ const useStyles = makeStyles( (theme) => ({
     container: {
         display: 'flex',
         justifyContent: 'center',
+        width: '100%'
     },
     overlayContainer: {
         margin: theme.spacing(1),

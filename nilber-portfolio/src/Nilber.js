@@ -14,7 +14,7 @@ import Footer from './Components/Footer'
 
 const useStyles = makeStyles( (theme) => ({
     root: {
-      height: '100%',
+      height: '100vh',
       display: 'flex',
       flexDirection: 'column',
       alignItems: 'center',

@@ -19,9 +19,9 @@ export const theme = createMuiTheme({
                     backgroundColor: '#121212',
                     color: '#FFFFFF'
                 },
-                '*::-webkit-scrollbar': {
-                    width: 0
-                },
+                // '*::-webkit-scrollbar': {
+                //     width: 0
+                // },
             },
         },
     },

@@ -21,7 +21,7 @@ const useStyles = makeStyles( (theme) => ({
     },
     text: {
       fontFamily: 'jost',
-      padding: theme.spacing(1)
+      margin: theme.spacing(1)
     }
 
 }))
@@ -40,7 +40,7 @@ const Nilber = () => {
         <div className="twinkling"></div>
         <div className="clouds"></div>  
         <Typography className={classes.text} align='center' variant="h2">Nílber Remón</Typography>
-        <Typography align='center' variant="h5" style={{fontFamily: 'abel'}}>FULL STACK WEB DEVELOPER</Typography>
+        <Typography className={classes.text} align='center' variant="h5" style={{fontFamily: 'abel'}}>FULL STACK WEB DEVELOPER</Typography>
         <Main />
         <Footer />
       </div>

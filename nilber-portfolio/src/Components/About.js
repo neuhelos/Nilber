@@ -23,7 +23,7 @@ const useStyles = makeStyles( (theme) => ({
     imageContainer: {
         width: '25%',
         float: 'left',
-        margin: theme.spacing(2),
+        margin: theme.spacing(4),
         [theme.breakpoints.down('sm')]: {
             width: '100%',
             float: 'none',
@@ -55,6 +55,7 @@ const About = () => {
         <Box className={classes.root}>
             <div className={classes.imageContainer}>
                 <img className={classes.image} src={Nilber} alt="Nílber Remón" />
+                <Typography variant='h5' align='center' gutterBottom={true}>They / Them</Typography>
             </div>
             <div className={classes.textContainer}>
                 <Typography className={classes.text}>

@@ -22,7 +22,7 @@ const useStyles = makeStyles( (theme) => ({
         padding: theme.spacing(1)
     },
     overlayContainer: {
-        width: '75%',
+        width: '60%',
         position: 'relative',
         overflow: 'hidden',
         '&:hover' : {

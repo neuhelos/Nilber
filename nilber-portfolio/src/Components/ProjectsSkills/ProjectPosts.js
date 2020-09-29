@@ -1,7 +1,7 @@
-import WeRise from '../Styling/Images/WeRiseCommunityDashboard.png'
-import Click from '../Styling/Images/ClickRoulettePage.gif'
-import Bitr from '../Styling/Images/BitrLandingPage.png'
-import TechTonic from '../Styling/Images/TechTonicWebScreenshot.png'
+import WeRise from '../../Styling/Images/WeRiseCommunityDashboard.png'
+import Click from '../../Styling/Images/ClickRoulettePage.gif'
+import Bitr from '../../Styling/Images/BitrLandingPage.png'
+import TechTonic from '../../Styling/Images/TechTonicWebScreenshot.png'
 
 export const projectPosts = [
     {

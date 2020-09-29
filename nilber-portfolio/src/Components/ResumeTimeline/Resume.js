@@ -8,8 +8,8 @@ import Button from '@material-ui/core/Button'
 import Timeline from './ResumeTimeline'
 import MobileTimeline from './MobileResumeTimeline'
 
-import TileGrid from '../Styling/Images/HeaderDiamondGrid.svg'
-import TechnicalResume from '../Assets/Nilber Remon - Resume.pdf'
+import TileGrid from '../../Styling/Images/HeaderDiamondGrid.svg'
+import TechnicalResume from '../../Assets/Nilber Remon - Resume.pdf'
 
 const useStyles = makeStyles((theme) => ({
     

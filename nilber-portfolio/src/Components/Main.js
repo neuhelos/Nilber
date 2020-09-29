@@ -8,8 +8,8 @@ import Tab from '@material-ui/core/Tab';
 import Grid from '@material-ui/core/Grid'
 
 import About from './About'
-import Resume from './Resume'
-import ProjectSkills from './ProjectSkills'
+import Resume from './ResumeTimeline/Resume'
+import ProjectSkills from './ProjectsSkills/ProjectsSkills'
 
 const useStyles = makeStyles( (theme) => ({
     root: {

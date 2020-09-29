@@ -26,6 +26,9 @@ const useStyles = makeStyles( (theme) => ({
     },
     header: {
       position: 'relative',
+      [theme.breakpoints.up('md')]: {
+        width: '100%',
+      },
       '&:before': {
         content: '""',
         width: '100%',
@@ -33,7 +36,12 @@ const useStyles = makeStyles( (theme) => ({
         position: 'absolute',
         backgroundImage: `url(${RedSplash})`,
         backgroundSize: '100%',
-        zIndex: -1
+        opacity: 0.85,
+        zIndex: -1,
+        [theme.breakpoints.up('md')]: {
+          backgroundSize: '75%',
+          backgroundPosition: 'center',
+        }
       }
     }
 

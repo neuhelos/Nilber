@@ -22,8 +22,14 @@ const useStyles = makeStyles( (theme) => ({
     },
     imageContainer: {
         width: '25%',
-        margin: theme.spacing(2),
         float: 'left',
+        margin: theme.spacing(2),
+        [theme.breakpoints.down('sm')]: {
+            width: '100%',
+            float: 'none',
+            margin: 0,
+            padding: theme.spacing(2)
+        },
         display: 'table',
         shapeOutside: 'circle()',
         '& -webkit-shape-outside' : 'circle()',

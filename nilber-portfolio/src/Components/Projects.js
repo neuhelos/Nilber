@@ -94,7 +94,7 @@ const Projects = () => {
                     </div>
                     <div className={classes.overlayDetails}>
                         <Typography variant={mobileMediaQuery ? 'h5' : 'h4'} align='center' gutterBottom={true}>{projects.projectName.toUpperCase()}</Typography>
-                        <Typography className={classes.text} variant={mobileMediaQuery ? 'subtitle2' : 'h6'}  align='center'>{projects.techStack}</Typography>
+                        <Typography className={classes.text} variant='h6'  align='center'>{projects.techStack}</Typography>
                     </div>
                 </Grid>
             </a>

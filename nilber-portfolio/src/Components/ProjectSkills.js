@@ -39,7 +39,7 @@ const ProjectSkills = () => {
                 <Skills />
             </Grid>
             <Grid container className={classes.container} direction="column" justify="center" alignItems="center">
-                <Typography className={classes.text} variant={mobileMediaQuery ? 'h5' : 'h3'} align='center' gutterBottom={true}>PROJECTS</Typography>
+                <Typography className={classes.text} variant='h3' align='center' gutterBottom={true}>PROJECTS</Typography>
                 <Projects />
             </Grid>
         </div>

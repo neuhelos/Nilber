@@ -28,13 +28,13 @@ const useStyles = makeStyles((theme) => ({
         alignItems: 'center',
         color: '#000000',
         '&:hover': {
-            color: '#A92521'
+            color: '#FF0101'
         },
         //marginRight: theme.spacing(3)
     },
     copyright: {
         '&:hover': {
-            color: '#A92521',
+            color: '#FF0101',
         }
     }
 }));

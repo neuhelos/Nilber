@@ -32,7 +32,7 @@ const useStyles = makeStyles( (theme) => ({
         position: 'relative'
     },
     selected: {
-        color: 'red'
+        color: '#FF0101"'
     }
 }))
 
@@ -87,7 +87,7 @@ const Main = () => {
                 onChange={handleChange}
                 variant='fullWidth'
                 aria-label="Tab Panel"
-                TabIndicatorProps={{style: {backgroundColor: 'red' , height: '0.5rem' }}}
+                TabIndicatorProps={{style: {backgroundColor: '#FF0101' , height: '0.5rem' }}}
             >
                 <Tab label="About" classes={{selected: classes.selected}} {...a11yProps(0)} />
                 <Tab label="Skills & Projects" classes={{selected: classes.selected}} {...a11yProps(1)} />

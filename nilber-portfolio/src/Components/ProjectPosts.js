@@ -19,7 +19,7 @@ export const projectPosts = [
     {
         projectName: 'Click', 
         image: Click,
-        techStack: 'PERN Stack (PERN Stack (PostgreSQL, Express, React, Node.js)',
+        techStack: 'PERN Stack (PostgreSQL, Express, React, Node.js)',
         projectURL: 'https://github.com/neuhelos/Click'
     },
     {

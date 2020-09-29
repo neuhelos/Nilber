@@ -24,5 +24,12 @@ export const theme = createMuiTheme({
                 // },
             },
         },
+        MuiTimelineItem: {
+            missingOppositeContent: {
+                '&:before': {
+                    display: "none"
+                }
+            }
+        }
     },
 });

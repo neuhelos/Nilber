@@ -1,9 +1,12 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
+import { useTheme } from '@material-ui/core/styles';
+import useMediaQuery from '@material-ui/core/useMediaQuery';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button'
 
 import Timeline from './ResumeTimeline'
+import MobileTimeline from './MobileResumeTimeline'
 
 import TileGrid from '../Styling/Images/HeaderDiamondGrid.svg'
 import TechnicalResume from '../Assets/Nilber Remon - Resume.pdf'
@@ -24,6 +27,9 @@ const useStyles = makeStyles((theme) => ({
         borderRadius: '4px',
         color: '#FFFFFF',
         width: '50%',
+        [theme.breakpoints.down('sm')]: {
+            width: '100%'
+        },
         margin: theme.spacing(1),
         background: 'transparent',
         backgroundImage: `url(${TileGrid})`,
@@ -36,7 +42,9 @@ const useStyles = makeStyles((theme) => ({
 
 const Resume = () => {
     
-    const classes = useStyles();
+    const classes = useStyles()
+    const theme = useTheme();
+    const mobileMediaQuery = useMediaQuery(theme.breakpoints.down('sm'));
 
     return (
         <div className={classes.root}>
@@ -44,7 +52,7 @@ const Resume = () => {
                 Download Resume
             </Button>
             <div className={classes.root}>
-                <Timeline />
+                { mobileMediaQuery ? <MobileTimeline /> : <Timeline />}
             </div>
         </div>
     );

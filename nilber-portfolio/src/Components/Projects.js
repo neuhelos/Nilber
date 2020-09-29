@@ -3,13 +3,14 @@ import React from 'react'
 import { projectPosts } from './ProjectPosts'
 
 import { makeStyles } from '@material-ui/core/styles'
+import { useTheme } from '@material-ui/core/styles';
+import useMediaQuery from '@material-ui/core/useMediaQuery';
 import Grid from '@material-ui/core/Grid'
 import Typography from '@material-ui/core/Typography';
 
 const useStyles = makeStyles( (theme) => ({
     root: {
         width: '100%',
-        padding: theme.spacing(1),
         '& *': {
             fontFamily: 'jost'
         }
@@ -17,10 +18,10 @@ const useStyles = makeStyles( (theme) => ({
     container: {
         display: 'flex',
         justifyContent: 'center',
-        width: '100%'
+        width: '100%',
+        padding: theme.spacing(1)
     },
     overlayContainer: {
-        margin: theme.spacing(1),
         width: '75%',
         position: 'relative',
         overflow: 'hidden',
@@ -33,7 +34,10 @@ const useStyles = makeStyles( (theme) => ({
                 left: '50%',
                 opacity: 1,
             }
-        }
+        },
+        [theme.breakpoints.down('sm')]: {
+            width: '100%'
+        },
     },
     overlay: {
         background: 'rgba(0,0,0,0.7)',
@@ -65,27 +69,32 @@ const useStyles = makeStyles( (theme) => ({
     },
     image: {
         width: '100%',
-        height: '100%',
+        height: '100%'
     },
     text : {
         fontFamily: 'abel',
+        padding: theme.spacing(2)
     }
 }))
 
 
 const Projects = () => {
     
-    const classes = useStyles();
+    const classes = useStyles()
+    const theme = useTheme();
+    const mobileMediaQuery = useMediaQuery(theme.breakpoints.down('sm'));
 
     let projects = projectPosts.map( projects => {
         return (
             <a className={classes.container} href={projects.projectURL} target='_blank' rel='noopener noreferrer'>
                 <Grid container className={classes.overlayContainer} direction="column" justify="center" alignItems="center">
                     <div className={classes.overlay}></div>
-                    <img className={classes.image} src={projects.image} alt={projects.projectName} />
+                    <div style={{width: '100%'}}>
+                        <img className={classes.image} src={projects.image} alt={projects.projectName} />
+                    </div>
                     <div className={classes.overlayDetails}>
-                        <Typography variant="h3" align='center' gutterBottom={true}>{projects.projectName}</Typography>
-                        <Typography className={classes.text} variant="h5" align='center'>{projects.techStack}</Typography>
+                        <Typography variant={mobileMediaQuery ? 'h5' : 'h4'} align='center' gutterBottom={true}>{projects.projectName.toUpperCase()}</Typography>
+                        <Typography className={classes.text} variant={mobileMediaQuery ? 'subtitle2' : 'h6'}  align='center'>{projects.techStack}</Typography>
                     </div>
                 </Grid>
             </a>

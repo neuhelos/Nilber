@@ -9,6 +9,7 @@ import TileGrid from '../Styling/Images/HeaderDiamondGrid.svg'
 import TechnicalResume from '../Assets/Nilber Remon - Resume.pdf'
 
 const useStyles = makeStyles((theme) => ({
+    
     root: {
         width: '100%',
         position: 'relative',

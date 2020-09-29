@@ -1,6 +1,8 @@
 import React from 'react'
 
 import { makeStyles } from '@material-ui/core/styles'
+import { useTheme } from '@material-ui/core/styles';
+import useMediaQuery from '@material-ui/core/useMediaQuery';
 import Grid from '@material-ui/core/Grid'
 import Typography from '@material-ui/core/Typography';
 
@@ -18,7 +20,7 @@ const useStyles = makeStyles( (theme) => ({
     },
     container: {
         width: '100%',
-        padding: theme.spacing(2),
+        padding: theme.spacing(1)
     },
     text : {
         fontFamily: 'jost',
@@ -28,6 +30,8 @@ const useStyles = makeStyles( (theme) => ({
 const ProjectSkills = () => {
     
     const classes = useStyles();
+    const theme = useTheme();
+    const mobileMediaQuery = useMediaQuery(theme.breakpoints.down('sm'));
     
     return (
         <div className={classes.root}>
@@ -35,7 +39,7 @@ const ProjectSkills = () => {
                 <Skills />
             </Grid>
             <Grid container className={classes.container} direction="column" justify="center" alignItems="center">
-                <Typography className={classes.text} variant='h3' align='center' gutterBottom={true}>PROJECTS</Typography>
+                <Typography className={classes.text} variant={mobileMediaQuery ? 'h5' : 'h3'} align='center' gutterBottom={true}>PROJECTS</Typography>
                 <Projects />
             </Grid>
         </div>

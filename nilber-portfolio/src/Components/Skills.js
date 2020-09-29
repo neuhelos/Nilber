@@ -3,6 +3,8 @@ import React from 'react'
 import { skillsLogos } from './SkillsLogos'
 
 import { makeStyles } from '@material-ui/core/styles'
+import { useTheme } from '@material-ui/core/styles';
+import useMediaQuery from '@material-ui/core/useMediaQuery';
 import Grid from '@material-ui/core/Grid'
 import Typography from '@material-ui/core/Typography';
 
@@ -16,7 +18,10 @@ const useStyles = makeStyles( (theme) => ({
         }
     },
     container: {
-        width: '10%'
+        width: '10%',
+        [theme.breakpoints.down('sm')]: {
+            width: '25%'
+        },
     },
     image: {
         width: '100%',
@@ -30,7 +35,9 @@ const useStyles = makeStyles( (theme) => ({
 
 const Skills = () => {
     
-    const classes = useStyles();
+    const classes = useStyles()
+    const theme = useTheme()
+    const mobileMediaQuery = useMediaQuery(theme.breakpoints.down('sm'))
 
     
     let skills = skillsLogos.map( skillsLogos => {

@@ -32,7 +32,7 @@ const useStyles = makeStyles( (theme) => ({
         position: 'relative'
     },
     selected: {
-        color: '#FF0101"'
+        color: '#FF0101'
     }
 }))
 

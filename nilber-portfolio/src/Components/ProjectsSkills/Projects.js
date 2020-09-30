@@ -19,7 +19,8 @@ const useStyles = makeStyles( (theme) => ({
         display: 'flex',
         justifyContent: 'center',
         width: '100%',
-        padding: theme.spacing(1)
+        padding: theme.spacing(1),
+        borderRadius: '4px'
     },
     overlayContainer: {
         width: '60%',

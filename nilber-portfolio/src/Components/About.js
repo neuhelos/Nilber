@@ -16,16 +16,20 @@ const useStyles = makeStyles( (theme) => ({
         height: '100%',
         '& *': {
             fontFamily: 'jost'
+        },
+        [theme.breakpoints.down('sm')]: {
+            padding: theme.spacing(3),
         }
     },
-    container: {
+    // container: {
+    //     background: 'rgba(0,0,0,0.5)',
+    //     borderRadius: '10px',
+    //     padding: theme.spacing(1),
+    // },
+    textContainer: {
+        padding: theme.spacing(4),
         background: 'rgba(0,0,0,0.5)',
         borderRadius: '10px',
-        padding: theme.spacing(1),
-    },
-    textContainer: {
-        padding: theme.spacing(2),
-        display: 'block'
     },
     imageContainer: {
         width: '25%',

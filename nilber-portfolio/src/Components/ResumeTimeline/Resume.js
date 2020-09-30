@@ -46,9 +46,11 @@ const Resume = () => {
     const theme = useTheme();
     const mobileMediaQuery = useMediaQuery(theme.breakpoints.down('sm'));
 
+    const technicalResume = 'https://docs.google.com/document/d/1nX0phemIBT27nk94tikVEDVCJjJJZ-aLT9i6rTwIKhg/edit?usp=sharing'
+
     return (
         <div className={classes.root}>
-            <Button className={classes.button} href={TechnicalResume} target="_blank" rel="noopener noreferrer" size='large'>
+            <Button className={classes.button} href={technicalResume} target="_blank" rel="noopener noreferrer" size='large'>
                 Download Resume
             </Button>
             <div className={classes.root}>

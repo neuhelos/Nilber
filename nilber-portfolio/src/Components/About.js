@@ -67,7 +67,7 @@ const About = () => {
             <div className={classes.container}>
                 <div className={classes.imageContainer}>
                     <img className={classes.image} src={Nilber} alt="Nílber Remón" />
-                    <Typography variant='h5' align='center' gutterBottom={true}>They / Them</Typography>
+                    {/* <Typography variant='h5' align='center' gutterBottom={true}>They / Them</Typography> */}
                 </div>
                 <div className={classes.textContainer}>
                     <Typography className={classes.text}>

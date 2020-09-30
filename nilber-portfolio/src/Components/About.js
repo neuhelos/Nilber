@@ -13,7 +13,10 @@ const useStyles = makeStyles( (theme) => ({
         minHeight: '100%',
         position: 'absolute',
         overflow: 'auto',
-        height: '100%'
+        height: '100%',
+        '& *': {
+            fontFamily: 'jost'
+        }
     },
     textContainer: {
         padding: theme.spacing(2),

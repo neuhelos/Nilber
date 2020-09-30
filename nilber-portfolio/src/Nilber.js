@@ -39,7 +39,7 @@ const useStyles = makeStyles( (theme) => ({
         height: '200%',
         position: 'absolute',
         backgroundImage: `url(${RedSplash})`,
-        filter: 'brightness(0.65)contrast(3)hue-rotate(187deg)saturate(8.5)opacity(0.85)',
+        filter: 'brightness(0.60)contrast(3)hue-rotate(187deg)saturate(8.5)opacity(0.85)',
         backgroundSize: '100%',
         //opacity: 0.85,
         zIndex: -1,

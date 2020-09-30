@@ -22,7 +22,11 @@ const useStyles = makeStyles( (theme) => ({
     },
     text: {
       fontFamily: 'jost',
-      margin: theme.spacing(1)
+      margin: theme.spacing(1),
+      // textShadow: `-1px 1px 0 #000,
+			// 	1px 1px 0 #000,
+			// 	1px -1px 0 #000,
+			// 	-1px -1px 0 #000`
     },
     header: {
       position: 'relative',
@@ -35,8 +39,9 @@ const useStyles = makeStyles( (theme) => ({
         height: '200%',
         position: 'absolute',
         backgroundImage: `url(${RedSplash})`,
+        filter: 'brightness(0.65)contrast(3)hue-rotate(187deg)saturate(8.5)opacity(0.85)',
         backgroundSize: '100%',
-        opacity: 0.85,
+        //opacity: 0.85,
         zIndex: -1,
         [theme.breakpoints.up('md')]: {
           backgroundSize: '75%',
@@ -63,7 +68,7 @@ const Nilber = () => {
         <div className={classes.header}>
           <Typography className={classes.text} align='center' variant="h2">Nílber Remón</Typography>
         </div> 
-        <Typography className={classes.text} align='center' variant="h5" style={{fontFamily: 'abel'}}>FULL STACK WEB DEVELOPER</Typography>
+        <Typography className={classes.text} align='center' variant="h5" style={{fontFamily: 'abel', fontWeight: 800}}>FULL STACK WEB DEVELOPER</Typography>
         <Main />
         <Footer />
       </div>

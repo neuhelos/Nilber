@@ -43,14 +43,14 @@ const useStyles = makeStyles( (theme) => ({
         },
         display: 'table',
         shapeOutside: 'circle()',
-        '& -webkit-shape-outside' : 'circle()',
+        '-webkit-shape-outside' : 'circle()',
         borderRadius: '50%'
     },
     image: {
         width: '100%',
         padding: theme.spacing(1),
         border: '10px solid #F5F5F5',
-        borderRadius: '50%'
+        borderRadius: '50%',
     },
     text : {
         fontFamily: 'abel',

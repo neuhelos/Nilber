@@ -12,7 +12,6 @@ import Projects from './Projects'
 const useStyles = makeStyles( (theme) => ({
     root: {
         width: '100%',
-        padding: theme.spacing(1),
         position: 'absolute',
         overflow: 'auto',
         minHeight: '100%',
@@ -20,7 +19,12 @@ const useStyles = makeStyles( (theme) => ({
     },
     container: {
         width: '100%',
-        padding: theme.spacing(2)
+        padding: theme.spacing(2),
+        //marginBottom: theme.spacing(1),
+        [theme.breakpoints.down('sm')]: {
+            width: '100%',
+            padding: 0
+        },
     },
     text : {
         fontFamily: 'jost',

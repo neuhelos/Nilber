@@ -12,13 +12,14 @@ import Typography from '@material-ui/core/Typography';
 const useStyles = makeStyles( (theme) => ({
     root: {
         width: '100%',
-        padding: theme.spacing(1),
         '& *': {
             fontFamily: 'jost'
-        }
+        },
+        padding: theme.spacing(2)
     },
     container: {
         width: '10%',
+        marginBottom: theme.spacing(2),
         [theme.breakpoints.down('sm')]: {
             width: '25%'
         },

@@ -7,23 +7,36 @@ import { useTheme } from '@material-ui/core/styles';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 import Grid from '@material-ui/core/Grid'
 import Typography from '@material-ui/core/Typography';
+import Link from '@material-ui/core/Link'
 
 const useStyles = makeStyles( (theme) => ({
     root: {
         width: '100%',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        flexDirection: 'column',
+        padding: theme.spacing(2),
         '& *': {
             fontFamily: 'jost'
-        }
+        },
+        [theme.breakpoints.down('sm')]: {
+            width: '100%',
+            padding: theme.spacing(1)
+        },
     },
     container: {
         display: 'flex',
         justifyContent: 'center',
-        width: '100%',
+        width: '75%',
         padding: theme.spacing(1),
-        borderRadius: '4px'
+        borderRadius: '4px',
+        [theme.breakpoints.down('sm')]: {
+            width: '100%'
+        },
     },
     overlayContainer: {
-        width: '60%',
+        width: '100%',
         position: 'relative',
         overflow: 'hidden',
         '&:hover' : {
@@ -58,6 +71,7 @@ const useStyles = makeStyles( (theme) => ({
         color: '#FFFFFF',
         position: 'absolute',
         width: '100%',
+        padding: theme.spacing(1),
         left: '50%',
         opacity: '0',
         top: '80%',
@@ -75,7 +89,13 @@ const useStyles = makeStyles( (theme) => ({
     text : {
         fontFamily: 'abel',
         padding: theme.spacing(2)
-    }
+    },
+    link: {
+        color: '#FFFFFF',
+        '&:hover': {
+            color: '#FF0101'
+        },
+    },
 }))
 
 
@@ -85,21 +105,25 @@ const Projects = () => {
     const theme = useTheme();
     const mobileMediaQuery = useMediaQuery(theme.breakpoints.down('sm'));
 
-    let projects = projectPosts.map( projects => {
+    let projects = projectPosts.map( project => {
         return (
-            <a className={classes.container} href={projects.projectURL} target='_blank' rel='noopener noreferrer'>
-                <Grid container className={classes.overlayContainer} direction="column" justify="center" alignItems="center">
-                    <div className={classes.overlay}></div>
-                    <div style={{width: '100%'}}>
-                        <img className={classes.image} src={projects.image} alt={projects.projectName} />
-                    </div>
-                    <div className={classes.overlayDetails}>
-                        <Typography variant={mobileMediaQuery ? 'h5' : 'h4'} align='center' gutterBottom={true}>{projects.projectName.toUpperCase()}</Typography>
-                        <Typography className={classes.text} variant='h6'  align='center'>{projects.techStack}</Typography>
-                    </div>
-                </Grid>
-            </a>
-        
+            <div className={classes.root}>
+                <Link className={classes.link} href={project.projectURL} target="_blank" rel="noopener noreferrer">
+                    <Typography variant={mobileMediaQuery ? 'h5' : 'h4'} align='center' gutterBottom={true}>{project.projectName}</Typography>
+                </Link>
+                <a className={classes.container} href={project.projectURL} target='_blank' rel='noopener noreferrer'>
+                    <Grid container className={classes.overlayContainer} direction="column" justify="center" alignItems="center">
+                        <div className={classes.overlay}></div>
+                        <div style={{width: '100%'}}>
+                            <img className={classes.image} src={project.image} alt={project.projectName} />
+                        </div>
+                        <div className={classes.overlayDetails}>
+                            <Typography variant={mobileMediaQuery ? 'body2' : 'h5'} align='center' gutterBottom={true}>{project.description}</Typography>
+                            <Typography className={classes.text} variant={mobileMediaQuery ? 'body2' : 'h5'}  align='center'>{project.techStack}</Typography>
+                        </div>
+                    </Grid>
+                </a>
+            </div>
         )
     })
 

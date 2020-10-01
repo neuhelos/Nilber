@@ -71,6 +71,9 @@ const useStyles = makeStyles( (theme) => ({
         color: '#FFFFFF',
         position: 'absolute',
         width: '100%',
+        display: 'flex',
+        alignItems: 'center',
+        flexDirection: 'column',
         padding: theme.spacing(1),
         left: '50%',
         opacity: '0',
@@ -88,7 +91,6 @@ const useStyles = makeStyles( (theme) => ({
     },
     text : {
         fontFamily: 'abel',
-        padding: theme.spacing(2)
     },
     link: {
         color: '#FFFFFF',
@@ -118,8 +120,8 @@ const Projects = () => {
                             <img className={classes.image} src={project.image} alt={project.projectName} />
                         </div>
                         <div className={classes.overlayDetails}>
-                            <Typography variant={mobileMediaQuery ? 'body2' : 'h5'} align='center' gutterBottom={true}>{project.description}</Typography>
-                            <Typography className={classes.text} variant={mobileMediaQuery ? 'body2' : 'h5'}  align='center'>Tech Stack: {project.techStack}</Typography>
+                            <Typography variant={mobileMediaQuery ? 'body1' : 'h5'} align='center' gutterBottom={true}>{project.description}</Typography>
+                            <Typography className={classes.text} variant={mobileMediaQuery ? 'body1' : 'h5'}  align='center'>Tech Stack: {project.techStack}</Typography>
                         </div>
                     </Grid>
                 </a>

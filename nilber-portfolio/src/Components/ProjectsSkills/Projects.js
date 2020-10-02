@@ -70,14 +70,17 @@ const useStyles = makeStyles( (theme) => ({
     overlayDetails: {
         color: '#FFFFFF',
         position: 'absolute',
-        width: '100%',
+        width: '75%',
+        [theme.breakpoints.down('sm')]: {
+            width: '100%'
+        },
         display: 'flex',
         alignItems: 'center',
         flexDirection: 'column',
         padding: theme.spacing(1),
         left: '50%',
         opacity: '0',
-        top: '80%',
+        top: '90%',
         '& -webkit-transform': 'translate(-50%, -50%)',
         '& -moz-transform': 'translate(-50%, -50%)',
         transform: 'translate(-50%, -50%)',

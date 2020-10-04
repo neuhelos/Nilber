@@ -9,7 +9,7 @@ import Timeline from './ResumeTimeline'
 import MobileTimeline from './MobileResumeTimeline'
 
 import TileGrid from '../../Styling/Images/HeaderDiamondGrid.svg'
-import TechnicalResume from '../../Assets/Nilber Remon - Resume.pdf'
+import TechnicalResume from '../../Assets/NilberRemon-Resume.pdf'
 
 const useStyles = makeStyles((theme) => ({
     

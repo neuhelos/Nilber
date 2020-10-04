@@ -39,6 +39,8 @@ const useStyles = makeStyles( (theme) => ({
         width: '100%',
         position: 'relative',
         overflow: 'hidden',
+        border: 'solid #F5F5F5 4px ',
+        borderRadius: '4px',
         '&:hover' : {
             '& $overlay' : {
                 opacity: 1

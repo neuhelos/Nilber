@@ -1,5 +1,5 @@
-import WeRise from '../../Styling/Images/WeRiseCommunityDashboard.png'
-import Click from '../../Styling/Images/ClickRoulettePage.gif'
+import WeRise from '../../Styling/Images/WeRise-LiveDemo.gif'
+import Click from '../../Styling/Images/Click-LiveDemo.gif'
 import Bitr from '../../Styling/Images/BitrLandingPage.png'
 import TechTonic from '../../Styling/Images/TechTonicWebScreenshot.png'
 

@@ -56,7 +56,7 @@ const useStyles = makeStyles( (theme) => ({
         },
     },
     overlay: {
-        background: 'rgba(0,0,0,0.7)',
+        background: 'rgba(0,0,0,0.85)',
         position: 'absolute',
         height: '100%',
         width: '100%',

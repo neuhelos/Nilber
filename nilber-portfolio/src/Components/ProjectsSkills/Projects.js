@@ -121,7 +121,7 @@ const Projects = () => {
                 <a className={classes.container} href={project.projectURL} target='_blank' rel='noopener noreferrer'>
                     <Grid container className={classes.overlayContainer} direction="column" justify="center" alignItems="center">
                         <div className={classes.overlay}></div>
-                        <div style={{width: '100%'}}>
+                        <div style={{width: '100%', margin: "-2px"}}>
                             <img className={classes.image} src={project.image} alt={project.projectName} />
                         </div>
                         <div className={classes.overlayDetails}>

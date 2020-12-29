@@ -56,6 +56,52 @@ const MobileResumeTimeline = () => {
     
     const classes = useStyles();
 
+    let timeline = resumePosts.map( post => {
+        
+        let responsibilityList = post.responsibilities.map( responsibility => {         
+            return (
+                <List className={classes.list}>
+                    <ListItem>
+                        <ListItemAvatar>
+                            <Avatar>
+                            <StarIcon />
+                            </Avatar>
+                        </ListItemAvatar>
+                        <ListItemText
+                        primary={
+                        <Typography variant='body1'>
+                            {responsibility}
+                        </Typography>
+                        }/>
+                    </ListItem>
+                </List>
+        )})
+        
+        return (
+        
+            <TimelineItem>
+                <TimelineSeparator>
+                    <TimelineDot className={classes.timelineDot}>
+                        <StarIcon className={classes.icon} />
+                    </TimelineDot>
+                    <TimelineConnector />
+                </TimelineSeparator>
+                <TimelineContent style={{paddingRight: 0}}>
+                    <Paper elevation={3} className={classes.paper}>
+                        <Typography variant="h6" component="h1" style={{fontWeight: 800}}>
+                            {post.organization}
+                        </Typography>
+                        <Typography variant='subtitle1' gutterBottom={true}>Front-End Web Development Study Lead</Typography>
+                        <Typography variant="subtitle1" className={classes.dateText}>
+                            JAN 2020 - PRESENT
+                        </Typography>
+                        {responsibilityList}
+                    </Paper>
+                </TimelineContent>
+            </TimelineItem>
+        )
+    })
+
 
     return (
         <Timeline className={classes.timeline}>

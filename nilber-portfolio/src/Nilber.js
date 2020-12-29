@@ -7,7 +7,7 @@ import { theme } from './Styling/ThemeProvider.js';
 
 import Typography from "@material-ui/core/Typography"
 import './Styling/TwinklingStarClouds.css'
-import RedSplash from './Styling/Images/RedPaintSplash.png'
+import RedSplash from './Styling/Images/RedPaintSplash2.png'
 
 import Main from './Components/Main'
 import Footer from './Components/Footer'

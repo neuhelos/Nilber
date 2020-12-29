@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Nilber from '../Styling/Images/NilberRedBlueStar2.png'
+import Nilber from '../Styling/Images/NilberRedBlueStarCompressed.png'
 
 import { makeStyles } from '@material-ui/core/styles'
 import Box from '@material-ui/core/Box'

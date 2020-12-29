@@ -1,4 +1,4 @@
-export const projectPosts = [
+export const resumePosts = [
 
     {
         dates: "JAN 2020 - PRESENT",

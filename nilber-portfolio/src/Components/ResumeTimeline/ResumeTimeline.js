@@ -61,25 +61,25 @@ const ResumeTimeline = () => {
 
     let timeline = resumePosts.map( post => {
         
-        let responsibilities = post.responsibilities.map( responsibility => {(           
-            <List>
-                <ListItem>
-                    <ListItemAvatar>
-                        <Avatar>
-                        <StarIcon />
-                        </Avatar>
-                    </ListItemAvatar>
-                    <ListItemText
-                    primary={
-                    <Typography variant='body1'>
-                        {responsibility}
-                    </Typography>
-                    }/>
-                </ListItem>
-            </List>
+        let responsibilityList = post.responsibilities.map( responsibility => {         
+            return (<List>
+                        <ListItem>
+                            <ListItemAvatar>
+                                <Avatar>
+                                <StarIcon />
+                                </Avatar>
+                            </ListItemAvatar>
+                            <ListItemText
+                            primary={
+                            <Typography variant='body1'>
+                                {responsibility}
+                            </Typography>
+                            }/>
+                        </ListItem>
+                    </List>
         )})
         
-        (<TimelineItem>
+        return (<TimelineItem>
             <TimelineOppositeContent>
                 <Typography variant="h6" className={classes.dateText}>
                     {post.dates}
@@ -97,7 +97,7 @@ const ResumeTimeline = () => {
                         {post.organization}
                     </Typography>
                     <Typography variant='subtitle1' gutterBottom={true}>{post.title}</Typography>
-                    {responsibilities}
+                    {responsibilityList}
                 </Paper>
             </TimelineContent>
         </TimelineItem>)
@@ -105,6 +105,8 @@ const ResumeTimeline = () => {
 
     
     return (
+        <>
+        {timeline}
         <Timeline className={classes.timeline} align="alternate">
                 <TimelineItem>
                     <TimelineOppositeContent>
@@ -443,6 +445,7 @@ const ResumeTimeline = () => {
                     </TimelineContent>
                 </TimelineItem>
             </Timeline>
+            </>
     )
 }
 

@@ -113,7 +113,7 @@ const ResumeTimeline = () => {
                             <Typography variant="h6" component="h1" style={{fontWeight: 800}}>
                                 ZONE 126 - FUND FOR THE CITY OF NY
                             </Typography>
-                            <Typography variant='subtitle1' gutterBottom={true}>Data Manager</Typography>
+                            <Typography variant='subtitle1' gutterBottom={true}>Data & Evaluation Manager</Typography>
                             <List className={classes.list}>
                                     <ListItem>
                                         <ListItemAvatar>

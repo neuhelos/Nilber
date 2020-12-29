@@ -1,5 +1,7 @@
 import React from 'react'
 
+import { resumePosts } from './ResumePosts'
+
 import { makeStyles } from '@material-ui/core/styles';
 import Timeline from '@material-ui/lab/Timeline'
 import TimelineItem from '@material-ui/lab/TimelineItem';
@@ -78,7 +80,7 @@ const MobileResumeTimeline = () => {
         )})
         
         return (
-        
+
             <TimelineItem>
                 <TimelineSeparator>
                     <TimelineDot className={classes.timelineDot}>
@@ -91,21 +93,23 @@ const MobileResumeTimeline = () => {
                         <Typography variant="h6" component="h1" style={{fontWeight: 800}}>
                             {post.organization}
                         </Typography>
-                        <Typography variant='subtitle1' gutterBottom={true}>Front-End Web Development Study Lead</Typography>
+                        <Typography variant='subtitle1' gutterBottom={true}>{post.title}</Typography>
                         <Typography variant="subtitle1" className={classes.dateText}>
-                            JAN 2020 - PRESENT
+                            {post.dates}
                         </Typography>
                         {responsibilityList}
                     </Paper>
                 </TimelineContent>
             </TimelineItem>
+            
         )
     })
 
 
     return (
         <Timeline className={classes.timeline}>
-                <TimelineItem>
+            {timeline}
+                {/* <TimelineItem>
                     <TimelineSeparator>
                         <TimelineDot className={classes.timelineDot}>
                             <StarIcon className={classes.icon} />
@@ -432,7 +436,7 @@ const MobileResumeTimeline = () => {
                             </List>
                         </Paper>
                     </TimelineContent>
-                </TimelineItem>
+                </TimelineItem> */}
             </Timeline>
     )
 }

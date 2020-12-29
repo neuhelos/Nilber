@@ -62,53 +62,56 @@ const ResumeTimeline = () => {
     let timeline = resumePosts.map( post => {
         
         let responsibilityList = post.responsibilities.map( responsibility => {         
-            return (<List>
-                        <ListItem>
-                            <ListItemAvatar>
-                                <Avatar>
-                                <StarIcon />
-                                </Avatar>
-                            </ListItemAvatar>
-                            <ListItemText
-                            primary={
-                            <Typography variant='body1'>
-                                {responsibility}
-                            </Typography>
-                            }/>
-                        </ListItem>
-                    </List>
+            return (
+                <List className={classes.list}>
+                    <ListItem>
+                        <ListItemAvatar>
+                            <Avatar>
+                            <StarIcon />
+                            </Avatar>
+                        </ListItemAvatar>
+                        <ListItemText
+                        primary={
+                        <Typography variant='body1'>
+                            {responsibility}
+                        </Typography>
+                        }/>
+                    </ListItem>
+                </List>
         )})
         
-        return (<TimelineItem>
-            <TimelineOppositeContent>
-                <Typography variant="h6" className={classes.dateText}>
-                    {post.dates}
-                </Typography>
-            </TimelineOppositeContent>
-            <TimelineSeparator>
-                <TimelineDot className={classes.timelineDot}>
-                    <StarIcon className={classes.icon} />
-                </TimelineDot>
-                <TimelineConnector />
-            </TimelineSeparator>
-            <TimelineContent>
-                <Paper elevation={3} className={classes.paper}>
-                    <Typography variant="h6" component="h1" style={{fontWeight: 800}}>
-                        {post.organization}
+        return (
+        
+            <TimelineItem>
+                <TimelineOppositeContent>
+                    <Typography variant="h6" className={classes.dateText}>
+                        {post.dates}
                     </Typography>
-                    <Typography variant='subtitle1' gutterBottom={true}>{post.title}</Typography>
-                    {responsibilityList}
-                </Paper>
-            </TimelineContent>
-        </TimelineItem>)
+                </TimelineOppositeContent>
+                <TimelineSeparator>
+                    <TimelineDot className={classes.timelineDot}>
+                        <StarIcon className={classes.icon} />
+                    </TimelineDot>
+                    <TimelineConnector />
+                </TimelineSeparator>
+                <TimelineContent>
+                    <Paper elevation={3} className={classes.paper}>
+                        <Typography variant="h6" component="h1" style={{fontWeight: 800}}>
+                            {post.organization}
+                        </Typography>
+                        <Typography variant='subtitle1' gutterBottom={true}>{post.title}</Typography>
+                        {responsibilityList}
+                    </Paper>
+                </TimelineContent>
+            </TimelineItem>
+        )
     })
 
     
     return (
-        <>
-        {timeline}
         <Timeline className={classes.timeline} align="alternate">
-                <TimelineItem>
+            {timeline}
+                {/* <TimelineItem>
                     <TimelineOppositeContent>
                         <Typography variant="h6" className={classes.dateText}>
                             JAN 2020 - PRESENT
@@ -443,9 +446,8 @@ const ResumeTimeline = () => {
                             </List>
                         </Paper>
                     </TimelineContent>
-                </TimelineItem>
+                </TimelineItem> */}
             </Timeline>
-            </>
     )
 }
 

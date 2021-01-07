@@ -90,9 +90,11 @@ const MobileResumeTimeline = () => {
                 </TimelineSeparator>
                 <TimelineContent style={{paddingRight: 0}}>
                     <Paper elevation={3} className={classes.paper}>
-                        <Typography variant="h6" component="h1" style={{fontWeight: 800}}>
-                            {post.organization}
-                        </Typography>
+                        <Link href={post.link} className={classes.link} target="_blank" rel="noopener noreferrer" underline="none">
+                            <Typography variant="h6" component="h1" style={{fontWeight: 800}}>
+                                {post.organization}
+                            </Typography>
+                        </Link>
                         <Typography variant='subtitle1' gutterBottom={true}>{post.title}</Typography>
                         <Typography variant="subtitle1" className={classes.dateText}>
                             {post.dates}

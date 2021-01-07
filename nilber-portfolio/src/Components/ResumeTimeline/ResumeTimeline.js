@@ -96,9 +96,11 @@ const ResumeTimeline = () => {
                 </TimelineSeparator>
                 <TimelineContent>
                     <Paper elevation={3} className={classes.paper}>
-                        <Typography variant="h6" component="h1" style={{fontWeight: 800}}>
-                            {post.organization}
-                        </Typography>
+                        <a>
+                            <Typography variant="h6" component="h1" style={{fontWeight: 800}}>
+                                {post.organization}
+                            </Typography>
+                        </a>
                         <Typography variant='subtitle1' gutterBottom={true}>{post.title}</Typography>
                         {responsibilityList}
                     </Paper>

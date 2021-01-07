@@ -44,6 +44,12 @@ const useStyles = makeStyles((theme) => ({
     paper: {
         padding: '6px 16px',
     },
+    link: {
+        color:'#FF0101',
+        '&:hover': {
+            color: '#45ADD4'
+        },
+    },
     list: {
         '& *' : {
             padding: 0
@@ -97,7 +103,7 @@ const ResumeTimeline = () => {
                 </TimelineSeparator>
                 <TimelineContent>
                     <Paper elevation={3} className={classes.paper}>
-                        <Link href={post.link} className={classes.link} target="_blank" rel="noopener noreferrer">
+                        <Link href={post.link} className={classes.link} target="_blank" rel="noopener noreferrer" underline="none">
                             <Typography variant="h6" component="h1" style={{fontWeight: 800}}>
                                 {post.organization}
                             </Typography>

@@ -13,6 +13,7 @@ import TimelineDot from '@material-ui/lab/TimelineDot';
 import StarIcon from '@material-ui/icons/Star';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
+import Link from '@material-ui/core/Link'
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
@@ -96,11 +97,11 @@ const ResumeTimeline = () => {
                 </TimelineSeparator>
                 <TimelineContent>
                     <Paper elevation={3} className={classes.paper}>
-                        <a>
+                        <Link href={post.link} className={classes.link} target="_blank" rel="noopener noreferrer">
                             <Typography variant="h6" component="h1" style={{fontWeight: 800}}>
                                 {post.organization}
                             </Typography>
-                        </a>
+                        </Link>
                         <Typography variant='subtitle1' gutterBottom={true}>{post.title}</Typography>
                         {responsibilityList}
                     </Paper>

@@ -3,7 +3,7 @@ export const resumePosts = [
     {
         dates: "JAN 2020 - PRESENT",
         organization: "PURSUIT",
-        link: "www.pursuit.org",
+        link: "https://pursuit.org",
         title: "Front-End Web Development Study Lead",
         responsibilities: [
             "Lead bi-weekly in-depth study conversations with 5-6 fellows on front-end, UI/UX design and styling.",
@@ -13,7 +13,7 @@ export const resumePosts = [
     {
         dates: "JAN 2019 - PRESENT",
         organization: "ZONE 126 - FUND FOR THE CITY OF NY",
-        link: "www.zone126.org",
+        link: "https://zone126.org",
         title: "Data & Evaluation Manager",
         responsibilities: [
             "Coordinate data analytics and data collection logistics across sites, programs and organizational partners.",
@@ -26,7 +26,7 @@ export const resumePosts = [
     {
         dates: "FEB 2016 - DEC 2018",
         organization: "AIDS HEALTHCARE FOUNDATION",
-        link: "www.aidshealth.org",
+        link: "https://aidshealth.org",
         title: "Associate Director of Quality & Operations",
         responsibilities: [
             `Managed the national operations, logistics, purchasing and procurement, quality assurance, property, fleet and facilities matters, 
@@ -48,7 +48,7 @@ export const resumePosts = [
     {
         dates: "MAR 2013 - JAN 2016",
         organization: "AIDS HEALTHCARE FOUNDATION",
-        link: "www.aidshealth.org",
+        link: "https://aidshealth.org",
         title: "Operations Manager",
         responsibilities: [
             `Managed the day-to-day operations, logistics and quality assurance structures and processes of 

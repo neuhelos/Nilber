@@ -45,6 +45,12 @@ const useStyles = makeStyles((theme) => ({
     paper: {
         padding: '6px 16px',
     },
+    link: {
+        color:'#FF0101',
+        '&:hover': {
+            color: '#45ADD4'
+        },
+    },
     list: {
         '& *' : {
             padding: 0

@@ -65,7 +65,7 @@ const Nilber = () => {
         <div className="twinkling"></div>
         <div className="clouds"></div>  
         <div className={classes.header}>
-          <Typography className={classes.text} align='center' variant="h2">Nílber Remón</Typography>
+          <Typography className={classes.text} align='center' variant="h2" component="h1">Nílber Remón</Typography>
         </div> 
         <Typography className={classes.text} align='center' variant="h5" style={{fontFamily: 'abel', fontWeight: 800}}>FULL STACK WEB DEVELOPER</Typography>
         <Main />

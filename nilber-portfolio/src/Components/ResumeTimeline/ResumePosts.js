@@ -1,5 +1,15 @@
 export const resumePosts = [
+    {
+        dates: "FEB 2020 - PRESENT",
+        organization: "ADSWERVE",
+        link: "https://adswerve.com",
+        title: "Junior Data Engineer",
+        responsibilities: [
+            "Build and maintain datawarehousing and pipelines",
+            "Support digital analytics implementations and advanced JavaScript data analytics tools",
 
+        ]
+    },
     {
         dates: "JAN 2020 - PRESENT",
         organization: "PURSUIT",
@@ -11,7 +21,7 @@ export const resumePosts = [
         ]
     },
     {
-        dates: "JAN 2019 - PRESENT",
+        dates: "JAN 2019 - FEB 2020",
         organization: "ZONE 126 - FUND FOR THE CITY OF NY",
         link: "https://zone126.org",
         title: "Data & Evaluation Manager",

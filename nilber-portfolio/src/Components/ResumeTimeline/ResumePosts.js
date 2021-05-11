@@ -5,9 +5,10 @@ export const resumePosts = [
         link: "https://adswerve.com",
         title: "Junior Data Engineer",
         responsibilities: [
-            "Build and maintain datawarehousing and pipelines",
-            "Support digital analytics implementations and advanced JavaScript data analytics tools",
-
+            "Support digital analytics implementations and the building of advanced data analytics tools",
+            "Support the building and maintainance of data warehouses and data pipelines and implementation of data architectures",
+            "Help develop, test and lead best-in-class engineering practices to help Clients define and set up frameworks for utilizing Big Data in the cloud",
+            "Provide Google Cloud Platform knowledge expertise to clients and stakeholders"
         ]
     },
     {

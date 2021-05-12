@@ -1,6 +1,6 @@
 export const resumePosts = [
     {
-        dates: "FEB 2020 - PRESENT",
+        dates: "FEB 2021 - PRESENT",
         organization: "ADSWERVE",
         link: "https://adswerve.com",
         title: "Junior Data Engineer",

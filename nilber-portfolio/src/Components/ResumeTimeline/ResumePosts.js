@@ -22,7 +22,7 @@ export const resumePosts = [
         ]
     },
     {
-        dates: "JAN 2019 - FEB 2020",
+        dates: "JAN 2019 - FEB 2021",
         organization: "ZONE 126 - FUND FOR THE CITY OF NY",
         link: "https://zone126.org",
         title: "Data & Evaluation Manager",

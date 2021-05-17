@@ -31,9 +31,9 @@ const useStyles = makeStyles((theme) => ({
             width: '100%'
         },
         margin: theme.spacing(1),
-        background: 'transparent',
-        backgroundImage: `url(${TileGrid})`,
-        backgroundSize: '50%',
+        //background: 'transparent',
+        background: 'repeating-conic-gradient(from 45deg, #000000 0% 25%, transparent 0% 50%) 100%/ 1.5em 1.5em',
+        //backgroundSize: '50%',
         fontSize: '1.5rem',
         fontWeight: 800,
         textAlign: 'center'

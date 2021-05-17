@@ -32,7 +32,7 @@ const useStyles = makeStyles((theme) => ({
         },
         margin: theme.spacing(1),
         //background: 'transparent',
-        background: 'repeating-conic-gradient(from 45deg, #000000 0% 25%, transparent 0% 50%) 100%/ 1.5em 1.5em',
+        background: 'repeating-conic-gradient(from 120deg, #000000 0% 25%, transparent 25% 50%) 50%/ 1.75em 1.75em',
         //backgroundSize: '50%',
         fontSize: '1.5rem',
         fontWeight: 800,

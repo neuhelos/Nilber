@@ -3,7 +3,7 @@ export const resumePosts = [
         dates: "APR 2024 - SEPT 2025",
         organization: "ADSWERVE",
         link: "https://adswerve.com",
-        title: "Data Engineer",
+        title: "Data Engineer 2",
         responsibilities: [
             "Led, contributed, and collaborated cross-functionally on engineering projects for enterprise clients, architecting, building, and delivering scalable, resilient solutions and applications in clients' cloud and data ecosystems to realize data-driven, client strategic business initiatives. Projects yielded 1-3% increases in quarterly/annual revenue.",
             "Designed, built, and automated data architectures, data pipelines, and orchestration workflows to centralize and standardize marketing, analytics, and client data, enabling unified reporting and advanced modeling. Solutions processed, transformed, and transferred daily thousands to hundreds of millions of streamed and/or batched data points.",

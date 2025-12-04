@@ -46,7 +46,7 @@ const Resume = () => {
     const theme = useTheme();
     const mobileMediaQuery = useMediaQuery(theme.breakpoints.down('sm'));
 
-    const technicalResume = 'https://docs.google.com/document/d/1nX0phemIBT27nk94tikVEDVCJjJJZ-aLT9i6rTwIKhg/export?format=pdf'
+    const technicalResume = "https://docs.google.com/document/d/1T9L0UJEwtLcg0kfzEjZZnDl37qAVtt1ogPhsOUElWBw/export?format=pdf"
 
     return (
         <div className={classes.root}>

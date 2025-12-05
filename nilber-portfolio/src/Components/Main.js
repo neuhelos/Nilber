@@ -89,9 +89,9 @@ const Main = () => {
                 aria-label="Tab Panel"
                 TabIndicatorProps={{style: {backgroundColor: '#FF0101' , height: '0.5rem' }}}
             >
-                <Tab label="About" classes={{selected: classes.selected}} {...a11yProps(0)} />
-                <Tab label="Skills & Projects" classes={{selected: classes.selected}} {...a11yProps(1)} />
-                <Tab label="Resume" classes={{selected: classes.selected}} {...a11yProps(2)} />
+                <Tab label="CV" classes={{selected: classes.selected}} {...a11yProps(2)} />
+                <Tab label="Skills & Projects" classes={{selected: classes.selected}} {...a11yProps(0)} />
+                <Tab label="About" classes={{selected: classes.selected}} {...a11yProps(1)} />
             </Tabs>
         </AppBar>
         <SwipeableViews
@@ -102,13 +102,13 @@ const Main = () => {
             containerStyle={{flex: 1, height: '100%'}}
             >
                 <TabPanel value={value} index={0} dir={theme.direction}>
-                    <About />
+                    <Resume />
                 </TabPanel>
                 <TabPanel value={value} index={1} dir={theme.direction}>
                     <ProjectSkills />
                 </TabPanel>
                 <TabPanel value={value} index={2} dir={theme.direction}>
-                    <Resume />
+                    <About />
                 </TabPanel>
         </SwipeableViews>
     </Grid>

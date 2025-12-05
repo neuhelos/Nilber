@@ -2,12 +2,12 @@ import React from 'react';
 
 import { makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
-import Container from '@material-ui/core/Container';
+//import Container from '@material-ui/core/Container';
 import Link from '@material-ui/core/Link';
 import Divider from '@material-ui/core/Divider'
 import GitHubIcon from '@material-ui/icons/GitHub'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
-import TwitterIcon from '@material-ui/icons/Twitter'
+import EmailIcon from '@material-ui/icons/Email'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -56,9 +56,9 @@ const Footer = () => {
                     <LinkedInIcon />
                     <Typography>LinkedIn</Typography>
                 </Link>
-                <Link href={`https://twitter.com/vallours`} className={classes.link} target="_blank" rel="noopener noreferrer">
-                    <TwitterIcon />
-                    <Typography>Twitter</Typography>
+                <Link href={`mailto:nilberremon@gmail.com`} className={classes.link} target="_blank" rel="noopener noreferrer">
+                    <EmailIcon />
+                    <Typography>Email</Typography>
                 </Link>
                 <Typography className={classes.copyright} variant="body2" color="textSecondary" align='center'>
                     {'Copyright © '}{new Date().getFullYear()}

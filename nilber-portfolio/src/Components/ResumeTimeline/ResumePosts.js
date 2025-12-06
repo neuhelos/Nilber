@@ -11,7 +11,6 @@ export const resumePosts = [
         link: "https://adswerve.com",
         title: "Data Engineer 2",
         responsibilities: [
-            "Google Cloud Professional Data Engineer Certificate",
             "Led, contributed, and collaborated cross-functionally on engineering projects for enterprise clients, architecting, building, and delivering scalable, resilient solutions and applications in clients' cloud and data ecosystems to realize data-driven, client strategic business initiatives. Projects yielded 1-3% increases in quarterly/annual revenue.",
             "Designed, built, and automated data architectures, data pipelines, and orchestration workflows to centralize and standardize marketing, analytics, and client data, enabling unified reporting and advanced modeling. Solutions processed, transformed, and transferred daily thousands to hundreds of millions of streamed and/or batched data points.",
             "Partnered with data scientists to deliver predictive, generative AI, and machine learning models and solutions. Designed and developed LLM-powered and agent-driven Gen AI applications and tooling, providing clients with an 85-150% increase in return on ad spend and reducing 35-55% cost per conversion.",

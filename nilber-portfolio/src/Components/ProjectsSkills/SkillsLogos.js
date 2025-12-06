@@ -37,6 +37,7 @@ import AdobeLogo from '../../Styling/Images/AdobeLogo.svg'
 import GTMLogo from '../../Styling/Images/GTMLogo.svg'
 import DjangoLogo from '../../Styling/Images/DjangoLogo.svg'
 import MCPLogo from '../../Styling/Images/MCPLogo.svg'
+import dbtLogo from '../../Styling/Images/dbtLogo.svg'
 
 
 export const skillsLogos = [
@@ -52,6 +53,7 @@ export const skillsLogos = [
     {skill: 'BigQuery', logo: BigQueryLogo},
     {skill: 'Snowflake', logo: SnowflakeLogo},
     {skill: 'Apache Beam', logo: ApacheBeamLogo},
+    {skill: 'dbt', logo: dbtLogo},
     {skill: 'MLOps', logo: VertexAILogo},
     {skill: 'AI Dev', logo: CursorLogo},
     {skill: 'AI Orchestration', logo: MCPLogo},

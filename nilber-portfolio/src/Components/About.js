@@ -71,7 +71,7 @@ const About = () => {
                 </div>
                 <div className={classes.textContainer}>
                     <Typography className={classes.text}>
-                        We’re living at the precipice of a moment that can reshape our society. As a personal and professional vocation, 
+                        {/* We’re living at the precipice of a moment that can reshape our society. As a personal and professional vocation, 
                         I want to support the building and prefiguration of a future that centers the most marginalized voices. It’s what 
                         brought me to the tech field and galvanized my path towards becoming a software developer. Over a year ago I 
                         decided to take a risk and reset my life, moving to New York City and reprogramming my professional career to 
@@ -83,7 +83,15 @@ const About = () => {
                         reimagining a career in tech committed to trailblazing, solutions-driven change.  As a software developer, I hope 
                         to contribute my skills and knowledge base around JavaScript and its frameworks and libraries, including React and 
                         Node.js as well as HTML and CSS sculpted through the lens of my unique professional perspectives to collaboratively 
-                        create riveting and functional end user experiences. 
+                        create riveting and functional end user experiences.  */}
+
+                        As a personal and professional vocation, I want to support the building and prefiguration of a future that centers the most marginalized voices. It’s what brought me to the tech field and galvanized my path towards becoming a software developer. In 2019 I decided to take a risk and reset my life, moving to New York City and reprogramming my professional career to become a junior developer. I've always been enthralled of the vibrancy and wonder of the tech field to spearhead and create readily resonant change. This is the impact I'd like to make, especially in the communities I inhabit, supporting those organizations fighting the struggles and challenges faced by communities of color and LGBTQ+ communities. My journey led me to Pursuit, a year-long immersive fellowship centered on recoding my professional experiences into building expertise with full stack web development, while mastering the risks and challenges of reimagining a career in tech committed to trailblazing, solutions-focused change.  
+                        <br/>
+                        <br/>
+                        Building on that foundation, I launched my tech career with a role in data engineering where I would bring the same commitment and achieve the same impact. In my current role, I design and deliver scalable, data-driven solutions for enterprise clients—building cloud architectures, automating pipelines, and enabling advanced analytics, AI, and machine learning models. I partner across teams to create tools, infrastructures, and applications that transform complex data into actionable insights, supporting smarter organizational strategies and innovations. 
+                        <br/>
+                        <br/>
+                        At the heart of my career is a passion to fusing technical excellence with progressive purpose, solving complex engineering challenges while contributing to a more equitable and rewarding future.
                     </Typography>
                 </div>
             </div>

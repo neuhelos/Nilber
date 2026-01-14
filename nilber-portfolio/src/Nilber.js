@@ -67,7 +67,7 @@ const Nilber = () => {
         <div className={classes.header}>
           <Typography className={classes.text} align='center' variant="h2" component="h1">Nílber Remón</Typography>
         </div> 
-        <Typography className={classes.text} align='center' variant="h5" style={{fontFamily: 'abel', fontWeight: 800}}>DATA/ANALYTICS/AI/CLOUD ENGINEER, SOFTWARE DEVELOPER & CONSULTANT</Typography>
+        <Typography className={classes.text} align='center' variant="h5" style={{fontFamily: 'abel', fontWeight: 800}}>DATA/CLOUD/ANALYTICS/AI/SOFTWARE ENGINEER, SOLUTION ARCHITECT & TECHNICAL STRATEGIST</Typography>
         <Main />
         <Footer />
       </div>

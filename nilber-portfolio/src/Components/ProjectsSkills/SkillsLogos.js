@@ -45,7 +45,7 @@ export const skillsLogos = [
     {skill: 'JavaScript', logo: JavascriptLogo},
     {skill: 'Node', logo: NodeLogo},
     {skill: 'SQL', logo: SQLLogo},
-    {skill: 'Java', logo: JavaLogo},
+    // {skill: 'Java', logo: JavaLogo},
     {skill: 'Rust', logo: RustLogo},
     {skill: 'Google Cloud', logo: GoogleCloudLogo},
     {skill: 'AWS', logo: AWSLogo},

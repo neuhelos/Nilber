@@ -103,7 +103,6 @@ export const resumePosts = [
         link: "https://aidshealth.org",
         title: "Associate Director of Quality & Operations",
         responsibilities: [
-
             {
                 title: "Enterprise Operations Leadership",
                 description: "Directed national operations and quality assurance for a major public health organization. Designed and scaled enterprise-wide operational architectures across logistics, procurement, assets and facilities, ensuring seamless service delivery at a national scale."

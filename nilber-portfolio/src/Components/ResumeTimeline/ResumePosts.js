@@ -16,24 +16,28 @@ export const resumePosts = [
                 description: "Led and contributed cross-functionally across teams on enterprise-scale projects, architecting, building and delivering solutions in client’s cloud and data ecosystems to realize strategic business initiatives, needs and POCs. Designed and developed a cloud-based solution scaling and streamlining web analytics and social media targeting implementations across thousands of web properties."
             },
             {
-                title: "Stakeholder Engagement",
-                description: "Provided cloud and data engineering consulting and knowledge expertise to enterprise clients and internal stakeholders. Supported clients with solutions and practices that enabled hundreds of thousands in cost savings for cloud and data infrastructure and services. Optimized automated SQL queries and SQL workflows resulting in thousands of dollars in savings for large-scale clients."
+                title: "Client Technical Strategy, Onboarding and Enablement",
+                description: "Served as a primary technical consultant for enterprise clients, leading discovery sessions with them and guiding them through the adoption of complex cloud and data ecosystems. Translated technical architectures into clear business value, enabling non-technical stakeholders to leverage their data effectively."
+            },
+            {
+                title: "Stakeholder Engagement and Education",
+                description: "Provided cloud and data engineering knowledge expertise and training to enterprise clients and internal stakeholders. Supported clients with solutions and practices that enabled hundreds of thousands in cost savings for cloud and data infrastructure and services. Optimized automated SQL queries and SQL workflows resulting in thousands of dollars in savings for large-scale clients."
             },
             {
                 title: "Cloud Automation & Data Ecosystem Design",
-                description: "Devised, built and automated data architectures, batch and streaming ELT/ETL pipelines and orchestration workflows to centralize and standardize marketing, analytics and client data enabling unified reporting and advanced data modeling work. Solutions that processed, transformed and transferred daily from thousands to hundreds of millions of streamed and/or batched data points/records. Architected and developed an event-driven data warehouse hub ecosystem for an enterprise client with pipelines to nearly two dozen disparate data sources ingesting millions of total records daily."
+                description: "Devised, built and automated data architectures, batch and streaming ELT/ETL pipelines and orchestration workflows to centralize and standardize marketing, analytics and client data enabling unified reporting and advanced data modeling work. Solutions that processed, transformed and transferred daily from thousands to millions of streamed and/or batched data points/records. Architected and developed an event-driven data warehouse hub ecosystem for an enterprise client with pipelines to nearly two dozen disparate data sources ingesting millions of total records daily."
             },
             {
                 title: "AI Implementation",
-                description: "Partnered with data scientists to deliver predictive, generative AI, agentic and machine learning models and solutions. Designed and developed LLM-powered, RAG-enhanced and agent-driven Gen AI applications and tooling. These solutions helped provide clients with a 85-150% increase in return on ad spend while reducing cost 35% per conversion."
+                description: "Partnered with data scientists to deliver predictive, generative AI, agentic and machine learning models and solutions. Designed and developed LLM-powered, RAG-enhanced and agent-driven Gen AI applications and tooling. These solutions helped provide clients with a 85% increase in return on ad spend while reducing cost 35% per conversion."
             },
             {
                 title: "Product Development",
-                description: "Built reusable, modular applications, advanced data analytics tools and internal tooling, developing solutions through full agile software development lifecycle - from technical design to testing, deployment, and delivery. Rigorously pursued automation of tasks and processes to increase productivity. Containerized and productized recurrent client use cases, including data migration across clouds."
+                description: "Built reusable, modular applications and internal tooling, developing solutions through an end-to-end agile software development lifecycle - from technical design to testing, deployment, and delivery. Rigorously pursued automation of tasks and processes to increase productivity. Containerized and productized recurrent client use cases, including data migration across clouds."
             },
             {
-                title: "Service-Oriented Architecture (SOA) and Software Design",
-                description: "Built and maintained REST and GraphQL APIs, and microservices, guiding solution design, standards and practices, decreasing long-term technical debt and achieving time-savings with development time and QA updates (30% less in utilized time and dev costs)."
+                title: "Cloud-Native Microservices Architecture",
+                description: "Architected and deployed scalable, API-first microservices (REST/GraphQL) on cloud platforms using Python. Defined engineering standards for service-oriented architecture, resulting in a 30% reduction in time-to-market and eliminated long-term technical debt."
             },
             {
                 title: "Cloud Infrastructure",

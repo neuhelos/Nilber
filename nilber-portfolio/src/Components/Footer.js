@@ -56,7 +56,7 @@ const Footer = () => {
                     <LinkedInIcon />
                     <Typography>LinkedIn</Typography>
                 </Link>
-                <Link href={`mailto:nilberremon@gmail.com`} className={classes.link} target="_blank" rel="noopener noreferrer">
+                <Link href={`mailto:info@nilber.dev`} className={classes.link} target="_blank" rel="noopener noreferrer">
                     <EmailIcon />
                     <Typography>Email</Typography>
                 </Link>

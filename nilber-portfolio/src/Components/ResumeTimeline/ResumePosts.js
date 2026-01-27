@@ -13,15 +13,15 @@ export const resumePosts = [
         responsibilities: [
             {
                 title: "Enterprise Solution Delivery",
-                description: "Led and contributed cross-functionally across teams on enterprise-scale projects, architecting, building and delivering solutions in client’s cloud and data ecosystems to realize strategic business initiatives, needs and POCs. Designed and developed a cloud-based solution scaling and streamlining web analytics and social media targeting implementations across thousands of web properties."
+                description: "Led cross-functional across teams on enterprise-scale projects, architecting and delivering solutions for strategic business initiatives and POCs, directly aligning with Zoom’s SE responsibilities. Designed and developed a cloud-based solution scaling and streamlining web analytics and social media targeting implementations across thousands of web properties."
             },
             {
-                title: "Client Technical Strategy, Onboarding and Enablement",
-                description: "Served as a primary technical consultant for enterprise clients, leading discovery sessions with them and guiding them through the adoption of complex cloud and data ecosystems. Translated technical architectures into clear business value, enabling non-technical stakeholders to leverage their data effectively."
+                title: "Client Technical Strategy & Enablement",
+                description: "Served as a primary technical consultant for enterprise clients, leading discovery sessions and guiding them through the adoption of complex cloud and AI ecosystems. Translated technical architectures into clear business value, enabling non-technical stakeholders to leverage their data effectively. Supported clients with solutions that enabled hundreds of thousands in cost savings, demonstrating the ROI of the platform."
             },
             {
                 title: "Stakeholder Engagement and Education",
-                description: "Provided cloud and data engineering knowledge expertise and training to enterprise clients and internal stakeholders. Supported clients with solutions and practices that enabled hundreds of thousands in cost savings for cloud and data infrastructure and services. Optimized automated SQL queries and SQL workflows resulting in thousands of dollars in savings for large-scale clients."
+                description: "Provided knowledge expertise and training to enterprise clients and internal stakeholders. Acted as a trusted advisor, helping customers navigate the rapid changes of cloud/SaaS solutions."
             },
             {
                 title: "Cloud Automation & Data Ecosystem Design",

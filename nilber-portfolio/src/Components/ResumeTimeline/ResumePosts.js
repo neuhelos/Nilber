@@ -89,7 +89,7 @@ export const resumePosts = [
             },
             {
                 title: "Team Leadership & Performance Management",
-                description: "Managed and mentored a team of data evaluation staff. Implemented metric-based performance tracking to optimize team output, foster professional development, and ensure alignment with organizational goals."
+                description: "Managed and mentored a team of data evaluation staff. Implemented metric-based performance tracking to optimize team output, foster professional development and ensure alignment with organizational goals."
             },
             {
                 title: "Process Standardization",

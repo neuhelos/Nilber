@@ -64,12 +64,12 @@ export const resumePosts = [
         title: "Front-End Web Development Study Lead",
         responsibilities: [
             {
-                title: "Front-End Instruction",
-                description: "Facilitated in-depth study sessions on front-end web development, UI/UX design principles, and modern frameworks such as React. Guided fellows through hands-on projects, enhancing their practical skills and understanding of front-end technologies."
+                title: "Front-end Instruction",
+                description: "Facilitated in-depth study sessions on front-end web development, UI/UX design principles and modern frameworks such as React. Guided fellows through hands-on projects, enhancing their practical skills and understanding of front-end technologies."
             },
             {
                 title: "Mentorship",
-                description: "Provide mentorship office hours on front-end development, UI/UX design and frameworks."
+                description: "Provided mentorship office hours on front-end development, UI/UX design and web frameworks."
             }
         ]
     },

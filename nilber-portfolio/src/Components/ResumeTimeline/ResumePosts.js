@@ -65,7 +65,7 @@ export const resumePosts = [
         responsibilities: [
             {
                 title: "Front-end Instruction",
-                description: "Facilitated in-depth study sessions on front-end web development, UI/UX design principles and modern frameworks such as React. Guided fellows through hands-on projects, enhancing their practical skills and understanding of front-end technologies."
+                description: "Facilitated in-depth study sessions on front-end web development. Guided fellows through hands-on projects, enhancing their practical skills and understanding of front-end tech."
             },
             {
                 title: "Mentorship",

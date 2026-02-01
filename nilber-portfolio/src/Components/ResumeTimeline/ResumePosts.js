@@ -13,15 +13,11 @@ export const resumePosts = [
         responsibilities: [
             {
                 title: "Enterprise Solution Delivery",
-                description: "Led cross-functional across teams on enterprise-scale projects, architecting and delivering solutions for strategic business initiatives and POCs, directly aligning with Zoom’s SE responsibilities. Designed and developed a cloud-based solution scaling and streamlining web analytics and social media targeting implementations across thousands of web properties."
-            },
-            {
-                title: "Client Technical Strategy & Enablement",
-                description: "Served as a primary technical consultant for enterprise clients, leading discovery sessions and guiding them through the adoption of complex cloud and AI ecosystems. Translated technical architectures into clear business value, enabling non-technical stakeholders to leverage their data effectively. Supported clients with solutions that enabled hundreds of thousands in cost savings, demonstrating the ROI of the platform."
+                description: "Served as a primary technical consultant for enterprise clients, leading cross-functional teams on enterprise-scale projects, architecting and delivering solutions for strategic business initiatives and POCs. Led discovery sessions and guided clients through the adoption of complex cloud and data ecosystems. Translated technical architectures into clear business value, enabling non-technical stakeholders to leverage their data effectively. For example, I designed and developed a cloud-based solution scaling and streamlining web analytics and social media targeting implementations across thousands of web properties."
             },
             {
                 title: "Stakeholder Engagement and Education",
-                description: "Provided knowledge expertise and training to enterprise clients and internal stakeholders. Acted as a trusted advisor, helping customers navigate the rapid changes of cloud/SaaS solutions."
+                description: "Provided cloud and data engineering knowledge expertise and training to enterprise clients and internal stakeholders. Supported clients with solutions and practices that enabled hundreds of thousands in cost savings for cloud and data infrastructure and services. Optimized automated SQL queries and SQL workflows resulting in thousands of dollars in savings for large-scale clients."
             },
             {
                 title: "Cloud Automation & Data Ecosystem Design",
@@ -29,7 +25,7 @@ export const resumePosts = [
             },
             {
                 title: "AI Implementation",
-                description: "Partnered with data scientists to deliver predictive, generative AI, agentic and machine learning models and solutions. Designed and developed LLM-powered, RAG-enhanced and agent-driven Gen AI applications and tooling. These solutions helped provide clients with a 85% increase in return on ad spend while reducing cost 35% per conversion."
+                description: "Partnered with data scientists to deliver predictive, generative AI, agentic and machine learning models and solutions. Supported the design and development of LLM-powered, RAG-enhanced and agent-driven Gen AI applications and tooling. These solutions helped provide clients with a 85% increase in return on ad spend while reducing cost 35% per conversion."
             },
             {
                 title: "Product Development",

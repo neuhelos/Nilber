@@ -77,10 +77,15 @@ const MobileResumeTimeline = () => {
                             </Avatar>
                         </ListItemAvatar>
                         <ListItemText
-                        primary={
-                        <Typography variant='body1'>
-                            {responsibility}
-                        </Typography>
+                            primary={
+                            <Typography variant='h7' style={{fontWeight: 800}}>
+                                {responsibility.title}
+                            </Typography>
+                            }
+                            secondary={
+                            <Typography variant='body1'>
+                                {responsibility.description}
+                            </Typography>
                         }/>
                     </ListItem>
                 </List>

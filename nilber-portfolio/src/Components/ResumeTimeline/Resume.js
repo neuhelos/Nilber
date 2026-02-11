@@ -41,14 +41,6 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 
-cookieStore.getAll('ajs_anonymous_id').then(cookies => cookies.map(cookie => {
-    if (cookie.domain === "freshpaint.io") { 
-        console.log(cookie.value) 
-    } 
-    return cookie.value
-}))
-
-
 const Resume = () => {
     
     const classes = useStyles()

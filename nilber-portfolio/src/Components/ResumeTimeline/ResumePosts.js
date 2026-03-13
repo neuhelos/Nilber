@@ -14,7 +14,7 @@ export const resumePosts = [
       {
         title: "Enterprise Solution Delivery",
         description:
-          "Served as a primary technical consultant for enterprise clients, leading cross-functional teams on enterprise-scale projects. Led the full project lifecycle end-to-end from discovery sessions, technical design and planning, creating POCs to enabling clients to adopt complex cloud and data solutions. Translated technical architectures into clear business value, enabling non-technical stakeholders to leverage their data effectively. For example, I designed and developed a cloud-based solution scaling and streamlining web analytics and social media targeting implementations across thousands of web properties.",
+          "Served as a primary technical consultant for enterprise clients, leading cross-functional teams. Led the full project lifecycle from discovery sessions, technical design and planning, creating POCs to enabling the adoption of complex cloud and data solutions, translating these into clear business value for non-technical stakeholders. Designed and developed a cloud-based solution scaling and streamlining web analytics and social media targeting implementations across thousands of web properties.",
       },
       {
         title: "Client Engagement and Education",
@@ -24,12 +24,12 @@ export const resumePosts = [
       {
         title: "Cloud Automation & Data Ecosystem Design",
         description:
-          "Devised, built and automated data architectures, batch and streaming ELT/ETL pipelines and orchestration workflows to centralize and standardize marketing, analytics and client data enabling unified reporting and advanced data modeling work. Owned the end-to-end transformation lifecycle for solutions that transferred and processed daily from thousands to millions of data points/records. Architected and developed an event-driven data warehouse hub ecosystem for an enterprise client with pipelines to over a dozen disparate data sources ingesting millions of total records daily.",
+          "Devised, built and automated batch and streaming ELT/ETL data pipelines and orchestration workflows to unify client data and for data modeling. Owned the end-to-end transformation lifecycle for solutions that processed daily from thousands to millions of data points/records. Architected and developed an event-driven data warehouse hub ecosystem for an enterprise client with pipelines to over a dozen disparate data sources ingesting millions of total records daily.",
       },
       {
         title: "Data Optimization, Quality, Validation & Observability",
         description:
-          "Optimized SQL queries and workflows resulting in thousands of dollars in savings for large-scale clients. Implemented validation and automated quality checks in data solutions that reduced discrepancies by 30%, ensuring high fidelity for critical reporting. Established robust observability, implementing logging, alerting and monitoring to assess platform health. This initiative reduced mean-time-to-resolution (MTTR) for pipeline failures and ensured solution stability.",
+          "Optimized SQL queries and workflows resulting in thousands of dollars in savings for large-scale clients. Implemented validation and automated quality checks in data solutions that reduced discrepancies by 30%, ensuring high fidelity for critical reporting. Established robust observability, implementing logging, alerting and monitoring to assess platform health. Reduced mean-time-to-resolution (MTTR) for pipeline failures and ensured solution stability.",
       },
       {
         title: "AI Implementation",
@@ -42,9 +42,9 @@ export const resumePosts = [
           "Built reusable, modular applications and internal tooling, developing solutions through an end-to-end agile software development lifecycle - from technical design to testing, deployment, and delivery. Rigorously pursued automation of tasks and processes to increase productivity. Containerized and productized recurrent client use cases, including data migration across clouds.",
       },
       {
-        title: "Cloud-Native Microservices Architecture",
+        title: "API Integration Development",
         description:
-          "Architected and deployed scalable, API-first microservices (REST/GraphQL) on cloud platforms using Python that handled heavy data loads. Defined engineering standards for service-oriented architecture, resulting in a 30% reduction in time-to-market and eliminated long-term technical debt.",
+          "Architected and deployed scalable, API-first microservices and solutions on cloud platforms and integrating them with client systems using RESTful/GraphQL APIs. Synchronized and transformed raw third-party data into unified streams for enterprise clients. Guided engineering standards for service-oriented architecture, resulting in a 30% reduction in time-to-market and minimized technical debt.",
       },
       {
         title: "Cloud Infrastructure",
@@ -52,9 +52,9 @@ export const resumePosts = [
           "Applied IaC practices in solutions that automated cloud resources and services provisioning for greater reliability and reusability, reducing development time for the engineering team by 80% (hundreds of labor hours) and slashing errors and bugs by 75%.",
       },
       {
-        title: "Data Enablement",
+        title: "Data & BI Enablement",
         description:
-          "Engineered, managed and maintained data warehouse and reporting solutions facilitating advanced analytics, attribution modeling, marketing activation and business intelligence decision-making (Tableau, Sigma). Across projects accelerated client insights and achievement of conversion and sales goals.",
+          "Engineered, managed and maintained data warehouse and reporting solutions facilitating advanced analytics, attribution modeling, marketing activation and BI decision-making (Looker, Tableau, Sigma). Across projects accelerated client insights and achievement of conversion and sales goals.",
       },
       {
         title: "Data Analytics & Tracking",
@@ -75,7 +75,7 @@ export const resumePosts = [
     title: "Front-End Web Development Study Lead",
     responsibilities: [
       {
-        title: "Front-end Instruction",
+        title: "Front-end Dev Instruction",
         description:
           "Facilitated in-depth study sessions on front-end web development. Guided fellows through hands-on projects, enhancing their practical skills and understanding of front-end tech.",
       },

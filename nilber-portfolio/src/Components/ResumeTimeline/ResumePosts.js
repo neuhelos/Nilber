@@ -14,7 +14,7 @@ export const resumePosts = [
       {
         title: "Enterprise Solution Delivery",
         description:
-          "Served as a primary technical consultant for enterprise clients, leading cross-functional teams. Led the full project lifecycle from discovery sessions, technical design and planning, creating POCs to enabling the adoption of complex cloud and data solutions, translating these into clear business value for non-technical stakeholders. Designed and developed a cloud-based solution scaling and streamlining web analytics and social media targeting implementations across thousands of web properties.",
+          "Served as a primary technical consultant for enterprise clients, leading cross-functional teams. Led the full project lifecycle from discovery sessions, technical design and planning, creating POCs to enabling the adoption of complex cloud and data solutions, translating these into clear business value for non-technical stakeholders. For example, designed and developed a cloud-based solution scaling web analytics and social media targeting implementations across thousands of web properties.",
       },
       {
         title: "Client Engagement and Education",
@@ -24,7 +24,7 @@ export const resumePosts = [
       {
         title: "Cloud Automation & Data Ecosystem Design",
         description:
-          "Devised, built and automated batch and streaming ELT/ETL data pipelines and orchestration workflows to unify client data and for data modeling. Owned the end-to-end transformation lifecycle for solutions that processed daily from thousands to millions of data points/records. Architected and developed an event-driven data warehouse hub ecosystem for an enterprise client with pipelines to over a dozen disparate data sources ingesting millions of total records daily.",
+          "Devised, built and automated batch and streaming ELT/ETL data pipelines and orchestration workflows to unify client data and for data modeling. Owned the end-to-end transformation lifecycle for solutions that processed daily up to millions of data points/records in cloud-native data warehouses. Applied performance tuning and materialization to support real-time reporting, analytics and ML initiatives. Architected and developed an event-driven data warehouse ecosystem with pipelines to over a dozen disparate data sources ingesting millions of total records daily.",
       },
       {
         title: "Data Optimization, Quality, Validation & Observability",
@@ -44,7 +44,7 @@ export const resumePosts = [
       {
         title: "API Integration Development",
         description:
-          "Architected and deployed scalable, API-first microservices and solutions on cloud platforms and integrating them with client systems using RESTful/GraphQL APIs. Synchronized and transformed raw third-party data into unified streams for enterprise clients. Guided engineering standards for service-oriented architecture, resulting in a 30% reduction in time-to-market and minimized technical debt.",
+          "Architected and deployed scalable, API-first microservices, solutions and integration workflows on cloud platforms, integrating them with client systems using RESTful/GraphQL APIs. Synchronized and transformed raw third-party data into unified streams. Guided engineering standards for service-oriented architecture, resulting in a 30% reduction in time-to-market and minimized technical debt.",
       },
       {
         title: "Cloud Infrastructure",
@@ -54,7 +54,7 @@ export const resumePosts = [
       {
         title: "Data & BI Enablement",
         description:
-          "Engineered, managed and maintained data warehouse and reporting solutions facilitating advanced analytics, attribution modeling, marketing activation and BI decision-making (Looker, Tableau, Sigma). Across projects accelerated client insights and achievement of conversion and sales goals.",
+          "Engineered, managed and maintained data warehouse and reporting solutions, transforming raw data into clean, visualization-ready datasets facilitating advanced analytics, attribution modeling, marketing activation and BI decision-making (Looker, Tableau, Sigma).",
       },
       {
         title: "Data Analytics & Tracking",
@@ -77,7 +77,7 @@ export const resumePosts = [
       {
         title: "Front-end Dev Instruction",
         description:
-          "Facilitated in-depth study sessions on front-end web development. Guided fellows through hands-on projects, enhancing their practical skills and understanding of front-end tech.",
+          "Facilitated in-depth study sessions on front-end web development.",
       },
       {
         title: "Mentorship",
@@ -100,7 +100,7 @@ export const resumePosts = [
       {
         title: "Team Leadership & Performance Management",
         description:
-          "Managed and mentored a team of data evaluation staff. Implemented metric-based performance tracking to optimize team output, foster professional development and ensure alignment with organizational goals.",
+          "Managed and mentored a team of data evaluation staff. Implemented metric-based performance tracking to optimize team output and organizational goals.",
       },
       {
         title: "Process Standardization",
@@ -131,9 +131,9 @@ export const resumePosts = [
           "Re-engineered legacy operational workflows to eliminate bottlenecks and reduce latency in service delivery. Established and standardized national SOPs and processes to ensure consistency and reliability across distributed regional teams.",
       },
       {
-        title: "Fiscal Governance & Resource Allocation",
+        title: "Fiscal Governance",
         description:
-          "Orchestrated a $1.3M annual operating budget, implementing rigorous auditing protocols to maximize resource efficiency and maintain strict compliance with complex governmental grant requirements.",
+          "Orchestrated a $1.3M annual operating budget, implementing rigorous auditing protocols to maximize resource efficiency and maintain strict compliance with governmental grant requirements.",
       },
       {
         title: "Cross-Functional Stakeholder Leadership",

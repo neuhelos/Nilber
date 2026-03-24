@@ -14,17 +14,17 @@ export const resumePosts = [
       {
         title: "Enterprise Solution Delivery",
         description:
-          "Served as a primary technical consultant for enterprise clients, leading cross-functional teams. Led the full project lifecycle from discovery sessions, technical design and planning, creating POCs to enabling the adoption of complex cloud and data solutions, translating these into clear business value for non-technical stakeholders. For example, designed and developed a cloud-based solution scaling web analytics and social media targeting implementations across thousands of web properties.",
+          "Served as a technical consultant for enterprise clients, leading cross-functional teams. Led the full project lifecycle from discovery sessions, technical design and planning, creating POCs to enabling the adoption of complex cloud and data solutions, translating these into clear business value for non-technical stakeholders. For example, designed and developed a cloud-based solution scaling web analytics and social media targeting implementations across thousands of web properties.",
       },
       {
-        title: "Client Engagement and Education",
+        title: "Client Enablement and Education",
         description:
-          "Provided cloud and data engineering knowledge expertise and training to enterprise clients and internal stakeholders. Developed documentation, technical and troubleshooting resources for empowering solution end users. Supported clients with solutions and practices that enabled hundreds of thousands in cost savings for cloud and data infrastructure and services.",
+          "As a subject matter expert on data and cloud engineering provided expertise and training to enterprise clients and internal stakeholders. Developed documentation, technical and troubleshooting resources for empowering solution end users. Supported clients with solutions and practices that enabled hundreds of thousands in cost savings for cloud and data infrastructure and services.",
       },
       {
-        title: "Cloud Automation & Data Ecosystem Design",
+        title: "Data Ecosystem Design",
         description:
-          "Devised, built and automated batch and streaming ELT/ETL data pipelines and orchestration workflows to unify client data and for data modeling. Owned the end-to-end transformation lifecycle for solutions that processed daily up to millions of data points/records in cloud-native data warehouses. Applied performance tuning and materialization to support real-time reporting, analytics and ML initiatives. Architected and developed an event-driven data warehouse ecosystem with pipelines to over a dozen disparate data sources ingesting millions of total records daily.",
+          "Built and automated batch and streaming ELT/ETL data pipelines to unify client data and for data modeling. Owned the end-to-end data lifecycle for solutions that processed daily up to millions of data points/records in cloud-native data warehouses (BigQuery). Implemented pipeline orchestration tools and SQL-based data transformation workflows (Dataform/dbt). Applied performance tuning and materialization to support real-time reporting and ML initiatives. Architected an event-driven data warehouse ecosystem with pipelines to over a dozen disparate data sources ingesting millions of total records daily.",
       },
       {
         title: "Data Optimization, Quality, Validation & Observability",
@@ -49,7 +49,7 @@ export const resumePosts = [
       {
         title: "Cloud Infrastructure",
         description:
-          "Applied IaC practices in solutions that automated cloud resources and services provisioning for greater reliability and reusability, reducing development time for the engineering team by 80% (hundreds of labor hours) and slashing errors and bugs by 75%.",
+          "Managed enterprise cloud-based data infrastructure across GCP, AWS and Azure. Applied IaC practices in solutions that automated cloud resources and services provisioning for greater reliability and reusability, reducing development time for the engineering team by 80% (hundreds of labor hours) and slashing errors and bugs by 75%.",
       },
       {
         title: "Data & BI Enablement",
@@ -59,7 +59,7 @@ export const resumePosts = [
       {
         title: "Data Analytics & Tracking",
         description:
-          "Configured complex tracking stacks across platforms. Implemented tagging and server-side tracking (sGTM) for Meta CAPI, Google Ads and other major ad networks, ensuring compliant measurement with consent management on websites and web apps serving up to millions of daily users. Optimized data fidelity and identity stitching, driving conversion goals up by 35% for clients. Debugged measurement and attribution discrepancies.",
+          "Configured complex tracking stacks across platforms. Implemented tagging and server-side tracking (sGTM) for conversion APIs and major ad networks, ensuring compliant measurement on web properties serving up to millions of daily users. Optimized data fidelity and identity stitching, driving conversion goals up by 35% for clients. Debugged measurement and attribution discrepancies.",
       },
       {
         title: "UI/UX Design",
